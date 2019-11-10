@@ -1,7 +1,7 @@
 <template>
     <div>
         <div>
-            <img class="profile-img" src="@/assets/profile/yoonjoohye.png" alt="윤주">
+            <img class="profile-img" src="@/assets/images/yoonjoohye.png" alt="윤주">
         </div>
         <div>
             <div>윤주혜</div>

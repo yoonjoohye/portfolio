@@ -1,6 +1,6 @@
 <template>
-  <div class="greeting">
-    JooHye's Story
+  <div class="greeting flex justify-center items-center">
+    <div class="">JooHye's Story</div>
   </div>
 </template>
 
