@@ -1,0 +1,13 @@
+@mixin box($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+body{
+  margin:0;
+}
+.greeting {
+  @include box(100vw,100vh);
+  background: linear-gradient(to left, #029fad, #00c2af);
+  color: white;
+}
