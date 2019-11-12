@@ -1,6 +1,6 @@
 <template>
-    <section class="bg-blue w-screen h-screen flex flex-col justify-center items-center">
-        <div class="text-6xl text-white font-semibold">Thank you</div>
+    <section class="bg-blue w-screen h-screen p-10 flex flex-col justify-center items-center">
+        <div class="w-full text-center text-6xl text-white font-semibold py-3 mb-5 border-b">Thank you</div>
         <div class="text-left text-white">
             <!--github-->
             <div>

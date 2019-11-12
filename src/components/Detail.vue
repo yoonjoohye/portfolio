@@ -2,12 +2,10 @@
     <transition name="modal">
         <div class="modal-mask">
             <div class="modal-wrapper">
-                <div class="modal-container">
-
+                <div class="modal-container" @blur="close()">
                     <div class="flex justify-between relative">
                         <slot name="img">
                         </slot>
-                        <button class="modal-default-button" @click="$emit('close')">X</button>
                     </div>
 
                     <div class="modal-body">
@@ -23,6 +21,12 @@
 <script>
     export default {
         name: "Detail",
+        methods:{
+            close() {
+                console.log('sdfsdf');
+                this.$emit('close');
+            }
+        }
     }
 </script>
 

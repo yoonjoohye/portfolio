@@ -1,6 +1,5 @@
 .modal-mask {
   position: fixed;
-  overflow: hidden;
   z-index:9998;
   top: 0;
   left: 0;
@@ -17,13 +16,11 @@
 }
 
 .modal-container {
-  min-width: 300px;
-  max-width:500px;
-
-  min-height:500px;
+  position:relative;
+  width:500px;
+  max-height:50vh;
   overflow-y:scroll;
-
-  margin: 0px auto;
+  margin: 0 auto;
   background-color: #fff;
   border-radius: 2px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
@@ -37,17 +34,24 @@
 }
 
 .modal-body {
-  padding:30px;
+  width:500px;
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+  padding:20px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+  margin-bottom: 5%;
 }
 
-.modal-default-button {
-  position:absolute;
-  margin-left: 93%;
-  margin-top: 3%;
-  cursor:pointer;
-  color: #606060;
-  z-index: 2;
-}
+//.modal-default-button {
+//  position:absolute;
+//  margin-left: 93%;
+//  margin-top: 3%;
+//  cursor:pointer;
+//  color: #606060;
+//  z-index: 2;
+//}
 
 /*
  * The following styles are auto-applied to elements with
