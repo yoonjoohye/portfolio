@@ -4,10 +4,9 @@ import router from './router'
 import store from './store'
 
 import VueAwesomeSwiper from 'vue-awesome-swiper'
-
 import 'swiper/dist/css/swiper.css'
-import './assets/scss/style.scss'
 
+import './assets/scss/style.scss'
 
 Vue.use(VueAwesomeSwiper, /* { default global options } */)
 
