@@ -25,3 +25,9 @@
     padding: 2rem;
   }
 }
+.margin{
+  margin-right: 1.25rem;
+  @media(max-width:480px){
+    margin-right: auto;
+  }
+}

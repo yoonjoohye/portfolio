@@ -5,18 +5,22 @@
             <div>
                 <div class="border-b pb-3">
                     <div class="text-2xl font-medium mb-3">윤주혜 <span class="font-normal">(Yoon Joo Hye)</span></div>
+                    <div class="border-b py-3 mb-3">
+                        <a class="btn-resume flex justify-center items-center text-red-600 font-medium border border-red-600 rounded px-2 py-1" href="https://drive.google.com/drive/folders/1kGlwKXYWo4R4-TAou7fAHpNHTIX6Gy9n?usp=sharing"><img class="inline h-5 mr-1" src="@/assets/images/logo/pdf.svg" alt="pdf">이력서</a>
+                    </div>
                     <div>010-9977-3841</div>
                     <div>besoftyoon@gmail.com</div>
                 </div>
+
                 <div class="border-b py-3">
                     <div class="font-normal">미림여자정보과학고등학교(졸업)</div>
                     <div>인터랙티브미디어과</div>
                     <div>2016.03 ~ 2019.02</div>
                 </div>
                 <div class="border-b py-3">
-                    <div class="font-normal">(주)코멘토 (인턴)</div>
-                    <div>Front-End 개발</div>
-                    <div>2019.01 ~ 2019.08</div>
+                    <div class="font-normal">(주)코멘토</div>
+                    <div>Front-End Intern</div>
+                    <div>2019.01 ~ 2019.08 (9개월)</div>
                 </div>
                 <div class="w-full py-3">
                     <div class="font-normal mb-2">스킬</div>
@@ -32,7 +36,7 @@
         </div>
         <!--활동-->
         <div class="masonry py-3">
-            <Activity v-for="(item,index) in activity" :thumbnail="item.thumbnail"></Activity>
+            <Activity v-for="(item,index) in activity" :thumbnail="item.thumbnail" :title="item.title"></Activity>
         </div>
 
         <Detail v-if="showDetail" @close="close" :portfolio="portfolio" :showDetailIndex="showDetailIndex"></Detail>
@@ -43,9 +47,7 @@
     import Icon from '../components/Icon.vue'
     import Portfolio from '../components/Portfolio.vue'
     import Activity from '../components/Activity.vue'
-
     import Detail from '../components/Detail.vue';
-
 
     export default {
         name: "Profile",
@@ -67,7 +69,7 @@
                         img: ['matching1.png', 'matching2.png', 'matching4.png', 'matching5.png', 'matching6.png', 'matching7.png', 'matching8.png', 'matching9.png', 'matching10.png', 'matching11.png', 'matching12.png', 'matching13.png', 'matching14.png'],
                         title: '현장매칭',
                         content: '현장매칭은 AI가 구직자가 입력한 정보를 바탕으로 채용박람회에 참여한 기업들을 매칭시켜주는 프로그램입니다.',
-                        skill: ['Vue', 'Scss', 'TailWindCss', 'Laravel', 'AWS'],
+                        skill: ['Vue', 'Scss', 'TailWindCSS', 'Laravel', 'AWS'],
                         url: 'https://jobfair.comento.kr/leading',
                         team: '2',
                         date: '2019.03 ~ 2019.08',
@@ -136,28 +138,28 @@
                 activity:[
                     {
                         thumbnail:'feconf.jpg',
-                        title:'',
+                        title:'FEconf 2019 스태프',
                     },
                     {
                         thumbnail:'jcc.jpg',
-                        title:'',
+                        title:'Java Creative Club 동아리',
                     },
                     {
                         thumbnail:'school1.jpg',
-                        title:'',
+                        title:'2018 졸업 작품 전시회',
                     },
                     {
                         thumbnail:'contest2.png',
-                        title:'',
+                        title:'신세계아이앤씨 IT\'s 챌린지 대회',
                     },
                     {
                         thumbnail:'contest1.jpg',
-                        title:'',
+                        title:'2016 소셜벤처경연대회',
                     },
 
                     {
                         thumbnail:'school2.jpeg',
-                        title:'',
+                        title:'제 27기 학생회',
                     },
                 ],
                 showDetail: false,
@@ -185,7 +187,7 @@
         width:50px!important;
         height:50px!important;
         background-size:50px 50px!important;
-        /*margin-right:30%!important;*/
+
     }
     .swiper-button-next{
         background-image:url('../assets/images/logo/right-arrow.svg')!important;
@@ -194,9 +196,16 @@
         background-size:50px 50px!important;
         right:auto!important;
         margin-left: 550px!important;
-        /*right:550px!important;*/
-        /*margin-left: 5%!important;*/
+        @media(max-width:480px){
+            margin-left:0!important;
+            right:0!important;
+        }
     }
+    /*.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets{*/
+    /*    @media(max-width:480px){*/
+    /*        display:none;*/
+    /*    }*/
+    /*}*/
 
     .swiper-button {
         &-prev, &-next {
@@ -216,14 +225,4 @@
     /*     align-items: center!important;*/
     /* }*/
 
-    .profile-img {
-        width: 300px;
-        height: 300px;
-        border-radius: 50%;
-        margin-right: 2rem;
-        @media(max-width:480px){
-            margin-right:0;
-            margin-bottom:1.2rem;
-        }
-    }
 </style>

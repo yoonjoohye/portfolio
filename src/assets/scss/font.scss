@@ -7,3 +7,18 @@ body {
 .keep-all{
   word-break: keep-all;
 }
+
+.text{
+  &-big {
+    font-size: 4rem;
+    @media(max-width: 480px) {
+      font-size: 2rem;
+    }
+  }
+  &-small{
+    font-size: 1.25rem;
+    @media(max-width: 480px) {
+      font-size: 0.3rem;
+    }
+  }
+}

@@ -4,3 +4,9 @@
     display:block;
   }
 }
+.only-pc{
+  display:block;
+  @media(max-width:480px){
+    display:none;
+  }
+}

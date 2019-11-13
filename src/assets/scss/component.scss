@@ -1,0 +1,55 @@
+.btn-resume:hover{
+  background-color:lighten(#e53e3e,40%);
+}
+.profile-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-right: 2rem;
+  @media(max-width:480px){
+    margin-right:0;
+    margin-bottom:1.2rem;
+  }
+}
+
+
+.activity {
+  &-box {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width:100%;
+    height:100%;
+
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    /*&:hover{*/
+    /*    transform: scale(1.5);*/
+    /*    overflow: hidden;*/
+
+    /*}*/
+  }
+  &-img{
+    backface-visibility: hidden;
+    vertical-align: top;
+    background-size: cover;
+  }
+  &-content {
+    z-index:1;
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+}

@@ -1,6 +1,6 @@
 <template>
     <section class="padding bg-blue w-screen h-screen flex flex-col justify-center items-center">
-        <div class="w-full text-center text-6xl text-white font-semibold py-5 mb-10 border-b">Thank you</div>
+        <div class="text-big w-full text-center text-white font-semibold py-5 mb-10 border-b">Thank you</div>
         <div class="text-left text-white">
             <!--github-->
             <div>

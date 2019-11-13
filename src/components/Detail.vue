@@ -1,7 +1,7 @@
 <template>
     <transition name="modal">
         <div class="flex justify-center items-center modal-mask" @click="close($event)">
-            <div class="flex justify-center modal-container">
+            <div class="flex flex-row-m justify-center modal-container">
                 <div class="modal-img">
                     <swiper :options="swiperOption">
                         <swiper-slide v-for="item in portfolio[showDetailIndex].img">
@@ -15,16 +15,19 @@
 
                 <div class="modal-body">
                     <div v-for="(item,index) in portfolio" v-if="index===showDetailIndex">
-                        <div class="text-lg font-medium">{{item.title}}</div>
-                        <div><a class="text-sm underline text-blue-600" :href="item.url"
-                                target="_blank">{{item.url}}</a></div>
-
-                        <div class="text-sm">{{item.date}}</div>
+                        <div class="text-lg font-medium mb-2">{{item.title}}</div>
+                        <div class="mb-2">
+                            <a class="text-sm underline text-blue-600" :href="item.url"
+                                target="_blank">{{item.url}}</a>
+                        </div>
                         <!--                            <div>{{item.team}}명</div>-->
-                        <div class="flex flex-wrap mb-2">
+                        <div class="flex flex-wrap mb-3">
                             <span class="text-xs font-normal rounded bg-gray-200 px-2 py-1 mb-1 mr-1"
                                   v-for="skill in item.skill"># {{skill}}</span>
                         </div>
+
+                        <div class="text-sm mb-3">{{item.date}}</div>
+
                         <p class="">{{item.content}}</p>
                     </div>
                 </div>
@@ -44,10 +47,10 @@
                     slidesPerView: 1,
                     spaceBetween: 30,
                     loop: false,
-                    pagination: {
-                        el: '.swiper-pagination',
-                        clickable: true
-                    },
+                    // pagination: {
+                    //     el: '.swiper-pagination',
+                    //     clickable: true
+                    // },
                     navigation: {
                         nextEl: '.swiper-button-next',
                         prevEl: '.swiper-button-prev'
