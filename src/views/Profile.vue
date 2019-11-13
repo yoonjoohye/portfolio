@@ -6,7 +6,9 @@
                 <div class="border-b pb-3">
                     <div class="text-2xl font-medium mb-3">윤주혜 <span class="font-normal">(Yoon Joo Hye)</span></div>
                     <div class="border-b py-3 mb-3">
-                        <a class="btn-resume flex justify-center items-center text-red-600 font-medium border border-red-600 rounded px-2 py-1" href="https://drive.google.com/drive/folders/1kGlwKXYWo4R4-TAou7fAHpNHTIX6Gy9n?usp=sharing"><img class="inline h-5 mr-1" src="@/assets/images/logo/pdf.svg" alt="pdf">이력서</a>
+                        <a class="btn-resume flex justify-center items-center text-red-600 font-medium border border-red-600 rounded px-2 py-1" href="https://drive.google.com/drive/folders/1kGlwKXYWo4R4-TAou7fAHpNHTIX6Gy9n?usp=sharing" target="_blank">
+                            <img class="inline h-5 mr-1" src="@/assets/images/logo/pdf.svg" alt="pdf">이력서
+                        </a>
                     </div>
                     <div>010-9977-3841</div>
                     <div>besoftyoon@gmail.com</div>
