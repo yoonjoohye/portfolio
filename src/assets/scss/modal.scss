@@ -10,50 +10,28 @@
   transition: opacity .3s ease;
 }
 
-.modal-wrapper{
-  width: 600px;
-  height: 500px;
-  background-color: white;
-  overflow-y: scroll;
-}
 .modal-container {
   position:relative;
   width:100%;
   border-radius: 2px;
   transition: all .3s ease;
 }
-
-.modal-header h3 {
-  margin-top: 0;
-  color: #42b983;
+.modal-img{
+  width: 600px;
+  height: 500px;
+  background-color:rgba(255, 255, 255, 0.5);
+  //background-color: white;
+  overflow-y: scroll;
 }
 
 .modal-body {
-  width: 20%;
+  width: 25%;
   height: 500px;
-  position: fixed;
   word-break: break-word;
   padding: 20px;
-  background: white;
+  background-color:rgba(255, 255, 255, 0.95);
+  //background: white;
 }
-
-//.modal-default-button {
-//  position:absolute;
-//  margin-left: 93%;
-//  margin-top: 3%;
-//  cursor:pointer;
-//  color: #606060;
-//  z-index: 2;
-//}
-
-/*
-* The following styles are auto-applied to elements with
-* transition="modal" when their visibility is toggled
-* by Vue.js.
-*
-* You can easily play with the modal transition by editing
-* these styles.
-*/
 
 .modal-enter {
   opacity: 0;

@@ -1,0 +1,27 @@
+.masonry { /* Masonry container */
+  column-count: 3;
+  column-gap: 1em;
+  @media(max-width:480px){
+    column-count: 2;
+
+  }
+}
+
+.item { /* Masonry bricks or child elements */
+  background-color: #eee;
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+}
+.flex-row-m{
+  flex-direction: row;
+  @media(max-width:480px){
+    flex-direction: column;
+  }
+}
+.padding{
+  padding: 5rem;
+  @media(max-width:480px){
+    padding: 2rem;
+  }
+}

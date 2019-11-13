@@ -1,17 +1,19 @@
 <template>
-  <section class="bg-blue w-screen h-screen p-20 flex flex-col justify-center">
-    <div class="text-6xl text-white font-semibold">안녕하세요,</div>
-    <div class="text-6xl text-white font-semibold">Front-End 개발자 윤주혜입니다.</div>
-  </section>
+    <section class="padding bg-blue w-screen h-screen flex flex-col justify-center">
+        <div class="text-6xl text-white font-semibold py-3 border-b">
+            안녕하세요,<br>
+            Front-End 개발자<br class="only-mobile"> 윤주혜입니다.
+        </div>
+    </section>
 </template>
 
 <script>
-export default {
-  name: 'Greeting',
-  props: {
-    msg: String
-  }
-}
+    export default {
+        name: 'Greeting',
+        props: {
+            msg: String
+        }
+    }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

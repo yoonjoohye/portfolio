@@ -1,6 +1,6 @@
 <template>
-    <section class="bg-blue w-screen h-screen p-10 flex flex-col justify-center items-center">
-        <div class="w-full text-center text-6xl text-white font-semibold py-3 mb-5 border-b">Thank you</div>
+    <section class="padding bg-blue w-screen h-screen flex flex-col justify-center items-center">
+        <div class="w-full text-center text-6xl text-white font-semibold py-5 mb-10 border-b">Thank you</div>
         <div class="text-left text-white">
             <!--github-->
             <div>
@@ -17,7 +17,7 @@
             <div>
                 <div><img src=""></div>
                 <div>
-                    <a href="besoftyoon@gmail.com" target="_blank">besoftyoon@gmail.com</a>
+                    <a href="mailto:besoftyoon@gmail.com" target="_blank">besoftyoon@gmail.com</a>
                 </div>
             </div>
 

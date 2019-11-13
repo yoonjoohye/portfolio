@@ -1,5 +1,5 @@
 <template>
-    <div class="cursor-pointer max-w-md rounded shadow-lg mr-5 mb-5" @click="$emit('open')">
+    <div class="portfolio cursor-pointer max-w-md rounded shadow-lg mb-5" @click="$emit('open')">
         <img class="w-full" :src="require(`@/assets/images/portfolio/${thumbnail}`)" :alt="title">
         <div class="p-4">
             <div class="font-medium text-xl mb-2">{{title}}</div>
@@ -18,6 +18,11 @@
     }
 </script>
 
-<style scoped>
-
+<style lang="scss">
+    .portfolio{
+        margin-right: 1.25rem;
+        @media(max-width:480px){
+            margin-right: auto;
+        }
+    }
 </style>
