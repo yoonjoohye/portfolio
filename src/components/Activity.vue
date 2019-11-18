@@ -1,6 +1,6 @@
 <template>
     <div class="item">
-        <figure class="cursor-pointer activity-box">
+        <figure class="cursor-pointer activity-box mb-4">
             <img class="activity-img" :src="require(`@/assets/images/portfolio/${thumbnail}`)"
                  :alt="title">
             <figcaption class="activity-content">

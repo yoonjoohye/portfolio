@@ -13,6 +13,21 @@
                 </div>
             </div>
 
+            <!--email-->
+            <div>
+                <div><img src=""></div>
+                <div>
+                    <a href="mailto:besoftyoon@gmail.com" target="_blank">besoftyoon@gmail.com</a>
+                </div>
+            </div>
+
+            <!--contact-->
+            <div>
+                <div><img src=""></div>
+                <div>
+                    <a href="">010-9977-3841</a>
+                </div>
+            </div>
         </div>
     </section>
 </template>

@@ -9,12 +9,14 @@ body {
 
 .bg {
   &-image {
-    //background-color:black;
     background-image:url('../images/background.jpg');
     background-size: cover;
-    //filter: brightness(50%);
+    background-position: center;
   }
   &-gray {
     background-color: #fbfbfb;
+  }
+  &-black-85{
+    background-color:rgba(50,50,50,0.85);
   }
 }
