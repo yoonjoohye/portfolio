@@ -8,8 +8,11 @@ body {
 }
 
 .bg {
-  &-blue {
-    background: linear-gradient(to left, #029fad, #00c2af);
+  &-image {
+    //background-color:black;
+    background-image:url('../images/background.jpg');
+    background-size: cover;
+    //filter: brightness(50%);
   }
   &-gray {
     background-color: #fbfbfb;
