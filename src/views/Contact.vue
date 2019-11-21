@@ -1,31 +1,36 @@
 <template>
     <section class="padding bg-image w-screen h-screen flex flex-col justify-center items-center">
         <div class="text-big w-full text-center text-white font-semibold py-5 mb-10 border-b">Thank you</div>
-        <div class="text-left text-white">
-            <!--github-->
-            <div>
-                <div><img src=""></div>
-                <div>
-                    <a href="https://github.com/yoonjoohye" target="_blank">개인용 | https://github.com/yoonjoohye</a>
+        <div class="w-full text-center">
+            <div class="inline-block text-white">
+                <!--github-->
+                <div class="flex items-center mb-2 cursor-pointer">
+                    <div><img class="w-5 mr-3" src="../assets/images/logo/github.svg"></div>
+                    <div>
+                        <a href="https://github.com/yoonjoohye" target="_blank">개인용 | https://github.com/yoonjoohye</a>
+                    </div>
                 </div>
-                <div>
-                    <a href="https://github.com/yjh3841" target="_blank">회사용 | https://github.com/yjh3841</a>
+                <div class="flex items-center mb-2 cursor-pointer">
+                    <div><img class="w-5 mr-3" src="../assets/images/logo/github.svg"></div>
+                    <div>
+                        <a href="https://github.com/yjh3841" target="_blank">회사용 | https://github.com/yjh3841</a>
+                    </div>
                 </div>
-            </div>
 
-            <!--email-->
-            <div>
-                <div><img src=""></div>
-                <div>
-                    <a href="mailto:besoftyoon@gmail.com" target="_blank">besoftyoon@gmail.com</a>
+                <!--email-->
+                <div class="flex items-center mb-2 cursor-pointer">
+                    <div><img class="w-5 mr-3" src="../assets/images/logo/email.svg"></div>
+                    <div>
+                        <a href="mailto:besoftyoon@gmail.com" target="_blank">besoftyoon@gmail.com</a>
+                    </div>
                 </div>
-            </div>
 
-            <!--contact-->
-            <div>
-                <div><img src=""></div>
-                <div>
-                    <a href="">010-9977-3841</a>
+                <!--contact-->
+                <div class="flex items-center mb-2 cursor-pointer">
+                    <div><img class="w-5 mr-3" src="../assets/images/logo/phone.svg"></div>
+                    <div>
+                        <a href="">010-9977-3841</a>
+                    </div>
                 </div>
             </div>
         </div>

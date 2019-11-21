@@ -1,26 +1,33 @@
 <template>
-    <div class="p-10 pb-40 bg-gray w-full flex flex-col justify-center items-center">
-        <div class="masonry-detail">
-            <div class="item" v-for="item in portfolio.img">
-                <img class="mb-4 shadow-lg" :src="require(`../assets/images/portfolio/${item}`)">
+    <div class="w-full flex justify-center items-center">
+        <div class="container detail">
+            <div class="masonry-detail">
+                <div class="item" v-for="item in portfolio.img">
+                    <img class="mb-4 shadow-lg" :src="require(`../assets/images/portfolio/${item}`)">
+                </div>
             </div>
         </div>
         <div class="bg-black-85 py-5 text-white fixed bottom-0 w-full flex justify-center items-center">
-            <div class="w-1/2">
-                <div class="flex justify-between mb-5">
-                    <div class="flex flex-row">
+            <div class="detail-box">
+                <div class="flex flex-row-m justify-between mb-3">
+                    <div class="flex flex-row-m">
                         <div class="text-lg font-medium mr-2">{{portfolio.title}}</div>
-                        <div>
+                        <div class="mb-1">
                             <a class="text-sm underline text-green-400" :href="portfolio.url"
-                                target="_blank">{{portfolio.url}}</a>
+                               target="_blank">{{portfolio.url}}</a>
                         </div>
                     </div>
                     <div class="flex flex-wrap">
-                        <span class="text-xs font-normal border px-2 py-1 mr-1"
-                              v-for="skill in portfolio.skill"># {{skill}}</span>
+                            <span class="text-xs font-normal border px-2 py-1 mr-1 mb-1"
+                                  v-for="skill in portfolio.skill"># {{skill}}</span>
                     </div>
                 </div>
-                <p class="">{{portfolio.content}}</p>
+                <p class="mb-3" v-html="portfolio.content"></p>
+
+                <div class="text-sm underline text-gray-400" v-if="portfolio.report">
+                    관련기사::
+                    <a v-for="report in portfolio.report" :href="report.url" target="_blank">{{report.name}}</a>
+                </div>
             </div>
         </div>
     </div>

@@ -14,13 +14,26 @@
     }
   }
 }
-
 .item { /* Masonry bricks or child elements */
   background:transparent;
   display: inline;
   width: 100%;
 }
 
+.container{
+  &.profile {
+    padding: 6rem 2.5rem;
+    @media(max-width: 480px) {
+      padding: 2.5rem 1rem;
+    }
+  }
+  &.detail{
+    padding: 4rem 2.5rem 12rem;
+    @media(max-width: 480px) {
+      padding: 2.5rem 1rem 17rem;
+    }
+  }
+}
 .flex-row-m{
   flex-direction: row;
   @media(max-width:480px){
@@ -34,7 +47,6 @@
   }
 }
 .margin{
-  margin-right: 1.25rem;
   @media(max-width:480px){
     margin-right: auto;
   }

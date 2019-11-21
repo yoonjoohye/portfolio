@@ -18,13 +18,17 @@
         "matching14.png"
       ],
       "title": "현장매칭",
-      "content": "현장매칭은 AI가 구직자가 입력한 정보를 바탕으로 채용박람회에 참여한 기업들을 매칭시켜주는 프로그램입니다.",
+      "content": "구직자가 경력, 학력, 전공, 관심 직무와 산업 등 간단한 구직 데이터를 입력하면 참가기업의 채용공고를 기반으로 기업에서 요구하는 인재상과 적합도를 인공지능(AI)으로 계산하여, 구직자와 가장 적합도가 높은 박람회 참가기업의 채용정보를 추천해주는 서비스",
+      "report": [
+        {
+          "name":"와썹맨 KB굿잡 취업박람회",
+          "url":"https://www.youtube.com/watch?v=sy3xliyn7CQ"
+        }
+      ],
       "skill": [
         "Vue",
         "Scss",
-        "TailWindCSS",
-        "Laravel",
-        "AWS"
+        "TailWind CSS"
       ],
       "url": "https://jobfair.comento.kr/leading",
       "team": "2",
@@ -39,12 +43,10 @@
         "dashboard4.png"
       ],
       "title": "대학/기관 제휴",
-      "content": "코멘토의 서비스를 대학과 기관에서 사용할 수 있도록 만든 제품입니다.",
+      "content": "코멘토와 제휴한 대학/기관이 콘텐츠를 열람하고, 멘토링을 이용하고, AI 자기소개서 분석기를 사용하여, 각각의 이용량을 확인할 수 있는 서비스임.",
       "skill": [
         "Vue",
-        "Less",
-        "Slim",
-        "AWS"
+        "Less"
       ],
       "url": "https://comento.info/univ/dashboard",
       "team": "2",
@@ -59,12 +61,10 @@
         "ai4.png"
       ],
       "title": "AI 자기소개서 분석기",
-      "content": "AI로 자기소개서를 분석하여 강점과 성향을 알려주는 프로그램입니다.",
+      "content": "27만개의 구직자 자기소개서 빅데이터 기반으로 성향과 업무적합도 간 상관관계를 계산해 평가해주는 서비스임. 더 전문적인 AI 자기소개서 분석결과를 만들기 위해 더와이랩과 함께 AI 자기소개서 분석기 V2를 완성함.",
       "skill": [
         "Vue",
-        "Less",
-        "Laravel",
-        "AWS"
+        "Less"
       ],
       "url": "https://comento.kr/analytics/report",
       "team": "2",
@@ -76,13 +76,11 @@
         "b2b1.png",
         "b2b2.png"
       ],
-      "title": "B2B 영업용 페이지",
-      "content": "B2B팀의 영업용 페이지입니다.",
+      "title": "B2B 상품 홍보용",
+      "content": "대학/기관에 코멘토 서비스를 홍보하기 위한 '멘토링'과 'AI 자기소개서 분석기'의 홍보용 페이지.",
       "skill": [
         "Vue",
-        "Less",
-        "Slim",
-        "AWS"
+        "Less"
       ],
       "url": "https://comento.kr/product/mentoring",
       "team": "2",
@@ -100,13 +98,10 @@
         "edu7.png"
       ],
       "title": "직무부트캠프",
-      "content": "실무 경험을 하면 취업에 도움이 될것이다는 가설로, 실제 현직자 강의를 들을 수 있는 프로그램입니다.",
+      "content": "현직자 리드멘토가 회사에서 실제로 풀고 있는 실무 문제를 그대로 가져와서 수강생과 함께 5주간 풀어보고 리드멘토의 피드백을 받으면서 직무 이해도도 높히고, 실제 실무 경험을 쌓을 수 있는 서비스임.",
       "skill": [
         "Vue",
-        "Less",
-        "Laravel",
-        "AWS",
-        "Elastic Search"
+        "Less"
       ],
       "url": "https://comento.kr/edu",
       "team": "2",
@@ -126,12 +121,10 @@
         "biz9.png"
       ],
       "title": "BIZ 리팩토링",
-      "content": "코멘토 채용에 올릴 수 있는 회사 담당자가 채용 매칭 서비스를 이용할 수 있도록 제작 된 것입니다.",
+      "content": "인공지능(AI)가 적합한 인재를 찾아 추천해주는 서비스임. BIZ 리팩토링함.",
       "skill": [
         "Vue",
-        "Less",
-        "Laravel",
-        "AWS"
+        "Less"
       ],
       "url": "https://biz.comento.kr/",
       "team": "2",
@@ -140,28 +133,39 @@
   ],
   "activity": [
     {
+      "type": "활동",
       "thumbnail": "feconf.jpg",
       "title": "FEconf 2019 스태프"
     },
     {
+      "type": "활동",
       "thumbnail": "jcc.jpg",
       "title": "Java Creative Club 동아리"
     },
     {
+      "type": "활동",
       "thumbnail": "school1.jpg",
       "title": "2018 졸업 작품 전시회"
     },
     {
+      "type": "공모전",
       "thumbnail": "contest2.png",
-      "title": "신세계아이앤씨 IT 챌린지 대회"
+      "title": "신세계아이앤씨 IT's 챌린지 대회"
     },
     {
+      "type": "공모전",
       "thumbnail": "contest1.jpg",
       "title": "2016 소셜벤처경연대회"
     },
     {
+      "type": "활동",
       "thumbnail": "school2.jpeg",
-      "title": "제 27기 학생회"
+      "title": "제27기 학생회"
+    },
+    {
+      "type": "공모전",
+      "thumbnail": "appjam.png",
+      "title": "제12회 APP JAM 해커톤"
     }
   ]
 }
