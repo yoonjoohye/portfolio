@@ -33,6 +33,12 @@
       padding: 2.5rem 1rem 17rem;
     }
   }
+  &.musinsa{
+    padding: 6rem 2.5rem;
+    @media(max-width: 480px) {
+      padding: 2.5rem 1rem;
+    }
+  }
 }
 .flex-row-m{
   flex-direction: row;

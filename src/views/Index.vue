@@ -5,6 +5,10 @@
       <Greeting></Greeting>
     </div>
 
+    <!--musinsa-->
+    <div>
+      <Musinsa></Musinsa>
+    </div>
     <!--profile-->
     <div>
       <Profile></Profile>
@@ -21,6 +25,7 @@
 <script>
 // @ is an alias to /src
 import Greeting from './Greeting.vue'
+import Musinsa from './Musinsa.vue'
 import Profile from './Profile.vue'
 import Contact from './Contact.vue'
 
@@ -28,7 +33,7 @@ import Contact from './Contact.vue'
 export default {
   name: 'Index',
   components: {
-    Greeting, Profile, Contact
+    Greeting, Musinsa, Profile, Contact
   }
 }
 </script>
