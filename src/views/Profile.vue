@@ -54,7 +54,8 @@
         data() {
             return {
                 skill: [
-                    {name: 'Vue', img: 'vue.png'},
+                    {name: 'Vue.JS', img: 'vue.png'},
+                    {name: 'Nuxt.JS', img: 'nuxt.png'},
                     {name: 'Less', img: 'less.png'},
                     {name: 'Scss', img: 'scss.png'},
                     {name: 'TailWind Css', img: 'tailwind.png'},
