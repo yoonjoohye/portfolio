@@ -6,7 +6,6 @@
             <!--            3. 어떤 생각을 했는지-->
             <!--            4. UI/UX를 어떻게 바꿨는지-->
             <!--            5. 기존과 뭐가 다른지-->
-
             <div class="text-2xl border-b border-black inline-block mb-20"><span class="font-normal">MUSINSA STORE</span> 메인화면 개선</div>
             <img src="../assets/images/musinsa/musinsa4.png">
             <div class="py-10">처음 무신사 스토어를 이용할때 기능이 많아 레이아웃을 적응하기가 쉽지 않았다.</div>
@@ -30,8 +29,9 @@
                 <u>vue와 nuxt.js를 사용</u>하고, <u>Lazy-loading을 적용</u>하여 이미지 로딩이 더 빠르게 사이트 속도를 개선하려고 노력했다.
             </div>
 
-            <div class="text-sm py-10">
-                <span class="only-pc">참조::</span><a class="text-blue-500 " href="https://github.com/yoonjoohye/musinsa_renewal" target="_blank">https://github.com/yoonjoohye/musinsa_renewal</a>
+            <div class="flex justify-center text-sm py-10">
+                <span class="only-pc">참조::</span>
+                <a class="text-blue-500 " href="https://github.com/yoonjoohye/musinsa_renewal" target="_blank">https://github.com/yoonjoohye/musinsa_renewal</a>
             </div>
         </div>
     </section>
