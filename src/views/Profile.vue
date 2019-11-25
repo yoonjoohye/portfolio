@@ -13,7 +13,7 @@
                 <div class="border-b py-3 pr-3">
                     <div class="font-normal">(주)코멘토</div>
                     <div>Front-End Intern</div>
-                    <div>2019.01 ~ 2019.08 (9개월)</div>
+                    <div>2019.01 ~ 2019.08 (8개월)</div>
                 </div>
                 <div class="border-b py-3 pr-3">
                     <div class="font-normal">미림여자정보과학고등학교(졸업)</div>
