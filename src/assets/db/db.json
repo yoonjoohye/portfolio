@@ -123,7 +123,7 @@
       "title": "BIZ 리팩토링",
       "content": "인공지능(AI)가 적합한 인재를 찾아 추천해주는 서비스임.<br>자바스크립트 프레임워크를 처음 써볼때 JQuery에서 Vue.js로 리팩토링하는 업무를 맡음.",
       "skill": [
-        "Ve",
+        "Vue",
         "Less"
       ],
       "url": "https://biz.comento.kr/",
