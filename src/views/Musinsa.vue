@@ -1,23 +1,25 @@
 <template>
     <section class="w-full flex flex-col justify-center items-center border-b">
-        <div class="container py-16 text-center">
+        <div class="container musinsa text-center keep-all">
             <!--            1. 설문조사를 하게 된 이유-->
             <!--            2. 설문조사 결과는 어떤지-->
             <!--            3. 어떤 생각을 했는지-->
             <!--            4. UI/UX를 어떻게 바꿨는지-->
             <!--            5. 기존과 뭐가 다른지-->
 
-            <div class="text-2xl border-b border-black inline-block p-3 mb-20"><span class="font-normal">MUSINSA STORE</span> 메인화면 개선</div>
+            <div class="text-2xl border-b border-black inline-block mb-20"><span class="font-normal">MUSINSA STORE</span> 메인화면 개선</div>
             <img src="../assets/images/musinsa/musinsa4.png">
-            <div class="py-10">무신사 스토어를 이용할때 기능이 너무 많아 레이아웃 적응이 쉽지 않았다.</div>
-            <div class="mb-10" v-for="x in 3">.</div>
+            <div class="py-10">처음 무신사 스토어를 이용할때 기능이 많아 레이아웃을 적응하기가 쉽지 않았다.</div>
+            <div class="mb-10" v-for="x in 2">.</div>
             <img src="../assets/images/musinsa/musinsa3.png">
             <div class="py-10">
                 무신사 서비스를 개선하기 위해 어떤 것이 문제인지 알아야했다.<br>
                 구글폼에 무신사 서비스 사용에 대한 설문지를 작성했다.<br>
-                총 21명에게 설문조사를 응답 받았고, 결과는 <u>사이트 속도와 UI/UX에 의해 상품을 찾기 어렵다는 것</u>이 문제였다.
+                총 21명에게 응답 받았고, 결과는 <u>사이트 속도와 UI/UX에 의해 상품을 찾기 어렵다는 것</u>이 문제였다.
             </div>
-            <div class="mb-10" v-for="x in 3">.</div>
+            <div class="mb-10" v-for="x in 2">.</div>
+            <img src="../assets/images/musinsa/musinsa5.png">
+            <div class="py-10">⬇</div>
             <img src="../assets/images/musinsa/musinsa1.png">
             <div class="py-10">
                 <u>사용자들이 상품을 잘 찾도록 만드는 것</u>이 목적이었기 때문에 UI/UX는 위 사진처럼 개선했다.<br>
@@ -29,7 +31,7 @@
             </div>
 
             <div class="text-sm py-10">
-                참조::<a class="text-blue-500 " href="https://github.com/yoonjoohye/musinsa_renewal" target="_blank">https://github.com/yoonjoohye/musinsa_renewal</a>
+                <span class="only-pc">참조::</span><a class="text-blue-500 " href="https://github.com/yoonjoohye/musinsa_renewal" target="_blank">https://github.com/yoonjoohye/musinsa_renewal</a>
             </div>
         </div>
     </section>
