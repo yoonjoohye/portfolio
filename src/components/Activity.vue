@@ -5,7 +5,7 @@
                  :alt="title">
             <figcaption class="activity-content">
                 <div class="text-xs text-white mb-1 only-pc">{{type}}</div>
-                <div class="text-small text-white mb-5">{{title}}</div>
+                <div class="text-xsmall text-white mb-5">{{title}}</div>
             </figcaption>
         </figure>
     </div>

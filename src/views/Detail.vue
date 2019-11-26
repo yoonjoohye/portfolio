@@ -18,13 +18,13 @@
                         </div>
                     </div>
                     <div class="flex flex-wrap">
-                            <span class="text-xs font-normal border px-2 py-1 mr-1 mb-1"
+                            <span class="text-xsmall font-normal border px-2 py-1 mr-1 mb-1"
                                   v-for="skill in portfolio.skill"># {{skill}}</span>
                     </div>
                 </div>
-                <p class="mb-3" v-html="portfolio.content"></p>
+                <p class="text-small mb-3" v-html="portfolio.content"></p>
 
-                <div class="text-sm underline text-gray-400" v-if="portfolio.report">
+                <div class="text-xsmall underline text-gray-400" v-if="portfolio.report">
                     관련기사::
                     <a v-for="report in portfolio.report" :href="report.url" target="_blank">{{report.name}}</a>
                 </div>

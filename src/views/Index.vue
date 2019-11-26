@@ -5,13 +5,14 @@
       <Greeting></Greeting>
     </div>
 
-    <!--musinsa-->
-    <div>
-      <Musinsa></Musinsa>
-    </div>
     <!--profile-->
     <div>
       <Profile></Profile>
+    </div>
+
+    <!--musinsa-->
+    <div>
+      <Musinsa></Musinsa>
     </div>
 
     <!--contact-->

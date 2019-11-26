@@ -18,7 +18,13 @@ body {
   &-small{
     font-size: 1rem;
     @media(max-width: 480px) {
-      font-size: 0.3rem;
+      font-size: 0.8rem;
+    }
+  }
+  &-xsmall{
+    font-size: 0.8rem;
+    @media(max-width: 480px) {
+      font-size: 0.6rem;
     }
   }
 }
