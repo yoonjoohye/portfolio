@@ -5,7 +5,7 @@
                 <div class="w-1/4 only-pc"><img class="w-full" src="../assets/images/yoonjoohye.png"></div>
                 <div>
                     <div class="flex">
-                        <div class="text-2xl font-medium">윤주혜 <span class="font-normal mr-5">(Yoon Joo Hye)</span></div>
+                        <div class="text-xl font-medium">윤주혜 <span class="font-normal mr-5">(Yoon Joo Hye)</span></div>
                         <a class="bg-black font-normal text-base text-white flex justify-center items-center px-3 py-1"
                            href="https://drive.google.com/drive/folders/1kGlwKXYWo4R4-TAou7fAHpNHTIX6Gy9n?usp=sharing"
                            target="_blank">
