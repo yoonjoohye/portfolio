@@ -1,40 +1,40 @@
 <template>
-  <div>
-    <!--greeting-->
     <div>
-      <Greeting></Greeting>
-    </div>
+        <!--greeting-->
+        <div>
+            <Greeting></Greeting>
+        </div>
 
-    <!--profile-->
-    <div>
-      <Profile></Profile>
-    </div>
+        <!--profile-->
+        <div>
+            <Profile></Profile>
+        </div>
 
-    <!--musinsa-->
-    <div>
-      <Musinsa></Musinsa>
-    </div>
+        <!--musinsa-->
+        <div>
+            <Musinsa></Musinsa>
+        </div>
 
-    <!--contact-->
-    <div>
-      <Contact></Contact>
-    </div>
+        <!--contact-->
+        <div>
+            <Contact></Contact>
+        </div>
 
-  </div>
+    </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import Greeting from './Greeting.vue'
-import Musinsa from './Musinsa.vue'
-import Profile from './Profile.vue'
-import Contact from './Contact.vue'
+    // @ is an alias to /src
+    import Greeting from './Greeting.vue'
+    import Musinsa from './Musinsa.vue'
+    import Profile from './Profile.vue'
+    import Contact from './Contact.vue'
 
 
-export default {
-  name: 'Index',
-  components: {
-    Greeting, Musinsa, Profile, Contact
-  }
-}
+    export default {
+        name: 'Index',
+        components: {
+            Greeting, Musinsa, Profile, Contact
+        }
+    }
 </script>
