@@ -15,7 +15,7 @@
             <div class="mb-10" v-for="x in 2">.</div>
             <img src="https://gkofsflkibbo3126162.cdn.ntruss.com/musinsa/musinsa3.png">
             <div class="py-10">
-                무신사 서비스를 개선하기 위해 어떤 점 문제인지 알아야했다.<br>
+                무신사 서비스를 개선하기 위해 어떤 점이 문제인지 알아야했다.<br>
                 그래서 구글폼에 무신사 서비스 사용에 대한 설문지를 작성했다.<br>
                 총 21명에게 응답 받았고, 결과는 <u>사이트 속도와 UI/UX에 의해 상품을 찾기 어렵다는 것</u>이 문제였다.
             </div>
