@@ -6,11 +6,11 @@
                 <div>
                     <div class="flex">
                         <div class="text-xl font-medium">윤주혜 <span class="font-normal mr-5">(Yoon Joo Hye)</span></div>
-                        <a class="bg-black font-normal text-base text-white flex justify-center items-center px-3 py-1"
-                           href="https://drive.google.com/drive/folders/1kGlwKXYWo4R4-TAou7fAHpNHTIX6Gy9n?usp=sharing"
-                           target="_blank">
-                            <img class="inline h-5 mr-1" src="@/assets/images/logo/download.svg" alt="download">이력서
-                        </a>
+<!--                        <a class="bg-black font-normal text-base text-white flex justify-center items-center px-3 py-1"-->
+<!--                           href="https://drive.google.com/drive/folders/1kGlwKXYWo4R4-TAou7fAHpNHTIX6Gy9n?usp=sharing"-->
+<!--                           target="_blank">-->
+<!--                            <img class="inline h-5 mr-1" src="@/assets/images/logo/download.svg" alt="download">이력서-->
+<!--                        </a>-->
                     </div>
                     <div class="border-b py-3 pr-3">
                         <div>2000.12.15</div>
