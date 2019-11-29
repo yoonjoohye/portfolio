@@ -5,13 +5,13 @@
             <div class="inline-block text-white">
                 <!--github-->
                 <div class="flex items-center mb-2 cursor-pointer">
-                    <div><img class="w-5 mr-3" src="../assets/images/logo/github.svg"></div>
+                    <div><img class="w-5 mr-3" src="https://gkofsflkibbo3126162.cdn.ntruss.com/logo/github.svg"></div>
                     <div class="text-small">
                         <a href="https://github.com/yoonjoohye" target="_blank">개인용 | https://github.com/yoonjoohye</a>
                     </div>
                 </div>
                 <div class="flex items-center mb-2 cursor-pointer">
-                    <div><img class="w-5 mr-3" src="../assets/images/logo/github.svg"></div>
+                    <div><img class="w-5 mr-3" src="https://gkofsflkibbo3126162.cdn.ntruss.com/logo/github.svg"></div>
                     <div class="text-small">
                         <a href="https://github.com/yjh3841" target="_blank">회사용 | https://github.com/yjh3841</a>
                     </div>
@@ -19,7 +19,7 @@
 
                 <!--email-->
                 <div class="flex items-center mb-2 cursor-pointer">
-                    <div><img class="w-5 mr-3" src="../assets/images/logo/email.svg"></div>
+                    <div><img class="w-5 mr-3" src="https://gkofsflkibbo3126162.cdn.ntruss.com/logo/email.svg"></div>
                     <div class="text-small">
                         <a href="mailto:besoftyoon@gmail.com" target="_blank">besoftyoon@gmail.com</a>
                     </div>
@@ -27,7 +27,7 @@
 
                 <!--contact-->
                 <div class="flex items-center mb-2 cursor-pointer">
-                    <div><img class="w-5 mr-3" src="../assets/images/logo/phone.svg"></div>
+                    <div><img class="w-5 mr-3" src="https://gkofsflkibbo3126162.cdn.ntruss.com/logo/phone.svg"></div>
                     <div class="text-small">010-9977-3841</div>
                 </div>
             </div>

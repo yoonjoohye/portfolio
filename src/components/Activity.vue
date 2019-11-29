@@ -1,7 +1,7 @@
 <template>
     <div class="item">
         <figure class="activity-box mb-4">
-            <img class="activity-img" :src="require(`@/assets/images/portfolio/${thumbnail}`)"
+            <img class="activity-img" :src="`https://gkofsflkibbo3126162.cdn.ntruss.com/portfolio/${thumbnail}`"
                  :alt="title">
             <figcaption class="activity-content">
                 <div class="text-xs text-white mb-1 only-pc">{{type}}</div>

@@ -7,22 +7,22 @@
             <!--            4. UI/UX를 어떻게 바꿨는지-->
             <!--            5. 기존과 뭐가 다른지-->
             <div class="text-2xl border-b border-t border-black py-2 inline-block mb-20"><span class="font-normal">MUSINSA STORE</span> 메인화면 개선</div>
-            <img src="../assets/images/musinsa/musinsa4.png">
+            <img src="https://gkofsflkibbo3126162.cdn.ntruss.com/musinsa/musinsa4.png">
             <div class="py-10">
                 처음 무신사 스토어를 이용할때 기능이 많아 레이아웃 적응이 쉽지 않았다.<br>
                 그래서 '무신사를 한번 개선해보자!'라는 생각을 했다.<br>
             </div>
             <div class="mb-10" v-for="x in 2">.</div>
-            <img src="../assets/images/musinsa/musinsa3.png">
+            <img src="https://gkofsflkibbo3126162.cdn.ntruss.com/musinsa/musinsa3.png">
             <div class="py-10">
                 무신사 서비스를 개선하기 위해 어떤 점 문제인지 알아야했다.<br>
                 그래서 구글폼에 무신사 서비스 사용에 대한 설문지를 작성했다.<br>
                 총 21명에게 응답 받았고, 결과는 <u>사이트 속도와 UI/UX에 의해 상품을 찾기 어렵다는 것</u>이 문제였다.
             </div>
             <div class="mb-10" v-for="x in 2">.</div>
-            <img src="../assets/images/musinsa/musinsa5.png">
+            <img src="https://gkofsflkibbo3126162.cdn.ntruss.com/musinsa/musinsa5.png">
             <div class="py-10">↓</div>
-            <img src="../assets/images/musinsa/musinsa1.png">
+            <img src="https://gkofsflkibbo3126162.cdn.ntruss.com/musinsa/musinsa1.png">
             <div class="py-10">
                 <u>사용자들이 상품을 잘 찾도록 만드는 것</u>이 목적이었기 때문에 UI/UX는 위 사진처럼 개선했다.<br>
                 <br>

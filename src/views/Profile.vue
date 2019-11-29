@@ -2,7 +2,7 @@
     <section class="w-full flex flex-col justify-center items-center border-b">
         <div class="container profile">
             <div class="flex flex-row-m justify-center">
-                <div class="w-1/4 only-pc"><img class="w-full" src="../assets/images/yoonjoohye.png"></div>
+                <div class="w-1/4 only-pc"><img class="w-full" src="https://gkofsflkibbo3126162.cdn.ntruss.com/yoonjoohye.png"></div>
                 <div>
                     <div class="flex">
                         <div class="text-xl font-medium">윤주혜 <span class="font-normal mr-5">(Yoon Joo Hye)</span></div>

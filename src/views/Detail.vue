@@ -3,7 +3,7 @@
         <div class="container detail">
             <div class="masonry-detail">
                 <div class="item" v-for="item in portfolio.img">
-                    <img class="mb-4 shadow-lg" :src="require(`../assets/images/portfolio/${item}`)">
+                    <img class="mb-4 shadow-lg" :src="`https://gkofsflkibbo3126162.cdn.ntruss.com/portfolio/${item}`">
                 </div>
             </div>
         </div>
