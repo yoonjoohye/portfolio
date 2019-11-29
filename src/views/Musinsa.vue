@@ -6,7 +6,7 @@
             <!--            3. 어떤 생각을 했는지-->
             <!--            4. UI/UX를 어떻게 바꿨는지-->
             <!--            5. 기존과 뭐가 다른지-->
-            <div class="text-2xl border-b border-t border-black py-2 inline-block mb-20"><span class="font-normal">MUSINSA STORE</span> 메인화면 개선 중</div>
+            <div class="text-2xl border-b border-t border-black py-2 inline-block mb-20"><span class="font-normal">MUSINSA STORE</span> 메인화면 개선</div>
             <img src="../assets/images/musinsa/musinsa4.png">
             <div class="py-10">
                 처음 무신사 스토어를 이용할때 기능이 많아 레이아웃 적응이 쉽지 않았다.<br>
