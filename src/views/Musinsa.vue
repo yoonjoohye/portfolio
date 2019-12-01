@@ -20,9 +20,9 @@
                 총 21명에게 응답 받았고, 결과는 <u>사이트 속도와 UI/UX에 의해 상품을 찾기 어렵다는 것</u>이 문제였다.
             </div>
             <div class="mb-10" v-for="x in 2">.</div>
-            <img src="https://gkofsflkibbo3126162.cdn.ntruss.com/musinsa/musinsa5.png">
+            <img src="https://gkofsflkibbo3126162.cdn.ntruss.com/musinsa/musinsa7.jpg">
             <div class="py-10">↓</div>
-            <img src="https://gkofsflkibbo3126162.cdn.ntruss.com/musinsa/musinsa1.png">
+            <img src="https://gkofsflkibbo3126162.cdn.ntruss.com/musinsa/musinsa6.png">
             <div class="py-10">
                 <u>사용자들이 상품을 잘 찾도록 만드는 것</u>이 목적이었기 때문에 UI/UX는 위 사진처럼 개선했다.<br>
                 <br>
@@ -30,8 +30,8 @@
                 <br>
                 <u>햄버거 버튼을 클릭</u>하면 전체 메뉴를 볼 수 있도록 했다.<br>
                 상품을 찾기 위해서는 사용자가 검색을 많이 이용할 것이라 생각하여, <u>검색창을 크게</u> 만들었다.<br>
-                디자이너와 브랜드는 사용자가 잘 이용하는 기능 중 하나이기 때문에 위 쪽에 배치했다.<br>
                 세일 상품, 랭킹 상품, 무신사 추천 등 <u>상품이 사용자 눈에 많이 띌 수 있는 위주</u>로 배치했다.<br>
+                무신사의 신규 입점한 브랜드를 보여주면서 <u>사용자가 다양한 브랜드를 접할 수 있도록</u> 배치했다.<br>
                 쇼핑이슈, 기획전 등 사용자가 알아야하는 소식을 한 눈에 볼 수 있게 <u>스와이핑 되는 배너</u>로 만들었다.<br>
                 <br>
                 <u>vue와 nuxt.js를 사용</u>하고, <u>Lazy-loading을 적용</u>하여 사이트 속도를 개선하려고 노력했다.
