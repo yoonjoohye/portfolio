@@ -9,7 +9,7 @@
         </div>
         <div class="bg-black-85 py-5 text-white fixed bottom-0 w-full flex justify-center items-center">
             <div class="detail-box">
-                <div class="flex flex-row-m justify-between mb-3">
+                <div class="flex flex-row-m justify-between mb-1">
                     <div class="flex flex-row-m">
                         <div class="text-lg font-medium mr-2">{{portfolio.title}}</div>
                         <div class="mb-1">
@@ -22,6 +22,7 @@
                                   v-for="skill in portfolio.skill"># {{skill}}</span>
                     </div>
                 </div>
+                <div class="mb-2">(프론트엔드 개발 기여도 100%)</div>
                 <p class="text-small mb-3" v-html="portfolio.content"></p>
 
                 <div class="text-xsmall underline text-gray-400" v-if="portfolio.report">
