@@ -2,7 +2,7 @@
     <div class="portfolio-box cursor-pointer max-w-sm shadow-lg mb-4" @click="open(index)">
         <img class="w-full" :src="`https://gkofsflkibbo3126162.cdn.ntruss.com/portfolio/${thumbnail}`" :alt="title">
         <div class="p-4">
-            <div class="font-medium text-xl mb-2">{{title}}</div>
+            <div class="font-medium text-xl mb-2">{{title}} <span class="text-sm font-light">(Front-end 100%)</span></div>
             <p class="text-sm ellipsis mb-5" v-html="content"></p>
             <div class="flex flex-wrap items-center">
                 <span class="font-normal text-xs px-2 py-1 bg-white text-gray-700 border mr-2 mb-2"
