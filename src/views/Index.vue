@@ -1,40 +1,32 @@
 <template>
-    <div>
-        <!--greeting-->
-        <div>
-            <Greeting></Greeting>
-        </div>
+    <section>
+        <!--인사말-->
+        <Greeting></Greeting>
 
-        <!--profile-->
-        <div>
-            <Profile></Profile>
-        </div>
+        <!--프로필-->
+        <Profile></Profile>
 
-        <!--musinsa-->
-        <div>
-            <Musinsa></Musinsa>
-        </div>
+        <!--이력-->
+        <Record></Record>
 
-        <!--contact-->
-        <div>
-            <Contact></Contact>
-        </div>
-
-    </div>
+        <!--연락-->
+        <Contact></Contact>
+    </section>
 </template>
 
 <script>
     // @ is an alias to /src
-    import Greeting from './Greeting.vue'
-    import Musinsa from './Musinsa.vue'
-    import Profile from './Profile.vue'
-    import Contact from './Contact.vue'
+    import Greeting from '@/views/Greeting.vue';
+    //import Musinsa from '@/views/Musinsa.vue';
+    import Profile from '@/views/Profile.vue';
+    import Record from '@/views/Record.vue';
+    import Contact from '@/views/Contact.vue';
 
 
     export default {
         name: 'Index',
         components: {
-            Greeting, Musinsa, Profile, Contact
+            Greeting, Profile, Record, Contact
         }
     }
 </script>

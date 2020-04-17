@@ -4,7 +4,7 @@
             <img class="activity-img" :src="`https://gkofsflkibbo3126162.cdn.ntruss.com/portfolio/${thumbnail}`"
                  :alt="title">
             <figcaption class="activity-content">
-                <div class="text-xs text-white mb-1 only-pc">{{type}}</div>
+                <div class="text-xs font-normal text-white mb-1 only-pc">{{type}}</div>
                 <div class="text-xsmall text-white mb-5">{{title}}</div>
             </figcaption>
         </figure>

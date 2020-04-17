@@ -1,5 +1,5 @@
 <template>
-    <div class="portfolio-box cursor-pointer max-w-sm shadow-lg mb-4" @click="open(index)">
+    <div class="cursor-pointer border border-gray-200 max-w-sm mb-4" @click="open(index)">
         <img class="w-full" :src="`https://gkofsflkibbo3126162.cdn.ntruss.com/portfolio/${thumbnail}`" :alt="title">
         <div class="p-4">
             <div class="font-medium text-xl mb-2">{{title}} <span class="text-sm font-light">(Front-end 100%)</span></div>

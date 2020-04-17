@@ -1,5 +1,100 @@
 {
+  "skill": [
+    {
+      "name": "Vue",
+      "img": "vue.png"
+    },
+    {
+      "name": "Nuxt",
+      "img": "nuxt.png"
+    },
+    {
+      "name": "React",
+      "img": "react.png"
+    },
+    {
+      "name": "Sapper",
+      "img": "sapper.svg"
+    },
+    {
+      "name": "Less",
+      "img": "less.png"
+    },
+    {
+      "name": "Scss",
+      "img": "scss.png"
+    },
+    {
+      "name": "TailWindCSS",
+      "img": "tailwind.png"
+    },
+    {
+      "name": "BootStrap",
+      "img": "bootstrap.png"
+    }
+  ],
   "portfolio": [
+    {
+      "thumbnail": "mandal.png",
+      "img": [
+        "mandal1.png",
+        "mandal2.png",
+        "mandal3.png",
+        "mandal4.png",
+        "mandal5.png"
+      ],
+      "title": "SHARIDEA",
+      "content": "핵심목표를 세우고 이에 대한 해결점, 아이디어, 생각들을 확산해 나가는 형태로, 목표를 계획하거나 아이디어를 구체화 할 때 사용하는 서비스임.<br/>똑같은 하루가 반복되는 인생이 재미없다고 생각했고 계획표를 만들던 중 만다라트 계획표 사이트가 있으면 좋겠다고 생각해 개발하게 됨",
+      "skill": [
+        "Svelte",
+        "Sapper",
+        "TailwindCSS",
+        "GraphQL"
+      ],
+      "url": "",
+      "team": "2",
+      "date": "2020.03 ~"
+    },
+    {
+      "thumbnail": "mandal.png",
+      "img": [
+        "mandal1.png",
+        "mandal2.png",
+        "mandal3.png",
+        "mandal4.png",
+        "mandal5.png"
+      ],
+      "title": "만다라트",
+      "content": "핵심목표를 세우고 이에 대한 해결점, 아이디어, 생각들을 확산해 나가는 형태로, 목표를 계획하거나 아이디어를 구체화 할 때 사용하는 서비스임.<br/>똑같은 하루가 반복되는 인생이 재미없다고 생각했고 계획표를 만들던 중 만다라트 계획표 사이트가 있으면 좋겠다고 생각해 개발하게 됨",
+      "skill": [
+        "React",
+        "Scss",
+        "Firebase"
+      ],
+      "url": "https://mandal-art.yoonjoohye.xyz/",
+      "team": "2",
+      "date": "2020.01 ~ 2020.02"
+    },
+    {
+      "thumbnail": "musinsa.png",
+      "img": [
+        "musinsa1.png",
+        "musinsa2.png",
+        "musinsa3.png",
+        "musinsa4.jpg"
+      ],
+      "title": "무신사 UI/UX 리뉴얼",
+      "content": "평소 옷을 살때 무신사를 이용함. 이용할 때마다 레이아웃이 복잡하다고 생각이 들었고, 쉽게 다가갈 수 있는 UI/UX로 개선을 했음.",
+      "skill": [
+        "Vue",
+        "Nuxt",
+        "TailWindCSS",
+        "lazy-loading"
+      ],
+      "url": "https://github.com/yoonjoohye/musinsa_renewal",
+      "team": "1",
+      "date": "2019.11 ~ 2019.12"
+    },
     {
       "thumbnail": "matching.png",
       "img": [
@@ -21,8 +116,8 @@
       "content": "구직 데이터를 입력하면 참가기업의 채용공고를 기반으로 인공지능(AI)으로 계산하여, 가장 적합도가 높은 참가기업의 채용정보를 추천해주는 서비스임.<br>유지보수를 위해 기능별로 컴포넌트를 분리하고, Scss의 mixin 기능을 사용하여 코드량을 줄임.",
       "report": [
         {
-          "name":"와썹맨 KB굿잡 취업박람회",
-          "url":"https://www.youtube.com/watch?v=sy3xliyn7CQ"
+          "name": "와썹맨 KB굿잡 취업박람회",
+          "url": "https://www.youtube.com/watch?v=sy3xliyn7CQ"
         }
       ],
       "skill": [
@@ -46,7 +141,8 @@
       "content": "코멘토와 제휴한 대학/기관이 콘텐츠를 열람하고, 멘토링을 이용하고, AI 자기소개서 분석기를 사용하고, 이용량을 확인할 수 있는 서비스임.<br>promise에서 async/await으로 바꿔 코드 가독성을 높이고, vue mixin을 사용하여 코드를 재사용하는 등 효율적으로 쓸 수 있게 함.",
       "skill": [
         "Vue",
-        "Less"
+        "Less",
+        "ApexCharts.js"
       ],
       "url": "https://comento.info/univ/dashboard",
       "team": "2",

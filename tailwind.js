@@ -1,7 +1,13 @@
 module.exports = {
   theme: {
-    extend: {}
+    screens:{
+      'sm': {'max': '480px'},
+      'md': {'max': '1024px'},
+    }
   },
   variants: {},
-  plugins: []
+  plugins: [
+    require('tailwindcss'),
+    require('autoprefixer'),
+  ]
 }

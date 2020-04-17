@@ -7,9 +7,11 @@ body {
   margin: 0;
 }
 
+
 .bg {
   &-image {
-    background-image:url('https://gkofsflkibbo3126162.cdn.ntruss.com/background.jpg');
+    background:linear-gradient(to right, #ffb655, #ff823b);
+    //background-image:url('https://gkofsflkibbo3126162.cdn.ntruss.com/background.jpg');
     background-size: cover;
     background-position: center;
   }
