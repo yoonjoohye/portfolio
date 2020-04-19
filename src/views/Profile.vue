@@ -2,8 +2,8 @@
     <section class="w-full h-screen sm:h-auto flex flex-col justify-center items-center border-b">
         <div class="container profile">
             <div class="flex flex-row md:flex-col justify-center py-10">
-                <div class="w-64 mr-32 md:hidden">
-                    <img class="w-full" src="@/assets/images/yoonjoohye.png"/>
+                <div class="w-64 mr-24 md:hidden">
+                    <img class="w-full" src="https://d2ajlnsxcxj87x.cloudfront.net/yoonjoohye.png"/>
                 </div>
                 <div>
                     <div class="flex items-center">
@@ -11,10 +11,10 @@
                         <a class="bg-orange-400 font-normal text-base text-white flex justify-center items-center w-24 h-10"
                            href="https://drive.google.com/drive/folders/1kGlwKXYWo4R4-TAou7fAHpNHTIX6Gy9n?usp=sharing"
                            target="_blank">
-                            <img class="inline h-5 mr-1" src="@/assets/images/logo/download.svg" alt="download">이력서
+                            <img class="inline h-5 mr-1" src="https://d2ajlnsxcxj87x.cloudfront.net/logo/download.svg" alt="download">이력서
                         </a>
                     </div>
-                    <div class="border-b border-gray-200 py-5 pr-3">
+                    <div class="text-lg border-b border-gray-200 py-5 pr-3">
 <!--                        <div>2000.12.15</div>-->
                         <div>010-9977-3841</div>
                         <div class="underline">
@@ -22,12 +22,12 @@
                         </div>
                     </div>
                     <div class="border-b border-gray-200 py-5 pr-3">
-                        <div class="font-normal">(주)코멘토</div>
+                        <div class="text-lg font-normal">(주)코멘토</div>
                         <div>Front-End Developer Intern</div>
                         <div>2019.01 ~ 2019.08 (8개월)</div>
                     </div>
                     <div class="border-b border-gray-200 py-5 pr-3">
-                        <div class="font-normal">미림여자정보과학고등학교</div>
+                        <div class="text-lg font-normal">미림여자정보과학고등학교</div>
                         <div>인터랙티브미디어과</div>
                         <div>2016.03 ~ 2019.02(졸업)</div>
                     </div>

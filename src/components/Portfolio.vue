@@ -1,6 +1,6 @@
 <template>
-    <div class="cursor-pointer border border-gray-200 max-w-sm mb-4" @click="open(index)">
-        <img class="w-full" :src="`https://gkofsflkibbo3126162.cdn.ntruss.com/portfolio/${thumbnail}`" :alt="title">
+    <div class="cursor-pointer border border-gray-200 max-w-sm mb-5" @click="open(index)">
+        <img class="w-full" :src="`https://d2ajlnsxcxj87x.cloudfront.net/portfolio/${thumbnail}`" :alt="title">
         <div class="p-4">
             <div class="font-medium text-xl mb-2">{{title}} <span class="text-sm font-light">(Front-end 100%)</span></div>
             <p class="text-sm ellipsis mb-5" v-html="content"></p>
@@ -9,7 +9,6 @@
                       v-for="item in skill"># {{item}}</span>
             </div>
         </div>
-
     </div>
 </template>
 

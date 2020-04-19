@@ -1,10 +1,10 @@
 <template>
     <div class="item">
         <figure class="activity-box mb-4">
-            <img class="activity-img" :src="`https://gkofsflkibbo3126162.cdn.ntruss.com/portfolio/${thumbnail}`"
+            <img class="activity-img" :src="`https://d2ajlnsxcxj87x.cloudfront.net/portfolio/${thumbnail}`"
                  :alt="title">
             <figcaption class="activity-content">
-                <div class="text-xs font-normal text-white mb-1 only-pc">{{type}}</div>
+                <span class="bg-orange-400 text-white px-2 rounded text-xs font-normal text-white mb-1 only-pc">{{type}}</span>
                 <div class="text-xsmall text-white mb-5">{{title}}</div>
             </figcaption>
         </figure>
