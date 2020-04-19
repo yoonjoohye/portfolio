@@ -12,7 +12,7 @@
                 <div class="flex flex-row-m justify-between mb-1">
                     <div class="flex flex-row-m">
                         <div class="text-lg font-medium mr-2 sm:mr-0">{{portfolio.title}}</div>
-                        <div class="mb-2" v-if="portfolio.url.length>0">
+                        <div class="mb-2" v-if="portfolio.url!==''">
                             <a class="text-sm underline text-orange-400" :href="portfolio.url"
                                target="_blank">{{portfolio.url}}</a>
                         </div>
