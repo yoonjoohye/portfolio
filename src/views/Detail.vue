@@ -11,8 +11,8 @@
             <div class="detail-box">
                 <div class="flex flex-row-m justify-between mb-1">
                     <div class="flex flex-row-m">
-                        <div class="text-lg font-medium mr-2">{{portfolio.title}}</div>
-                        <div class="mb-1" v-if="portfolio.url.length>0">
+                        <div class="text-lg font-medium mr-2 sm:mr-0">{{portfolio.title}}</div>
+                        <div class="mb-2" v-if="portfolio.url.length>0">
                             <a class="text-sm underline text-orange-400" :href="portfolio.url"
                                target="_blank">{{portfolio.url}}</a>
                         </div>
@@ -22,7 +22,7 @@
                                   v-for="skill in portfolio.skill"># {{skill}}</span>
                     </div>
                 </div>
-                <div class="mb-2">(프론트엔드 개발 기여도 100%)</div>
+                <div class="mb-2 sm:text-sm">(프론트엔드 개발 기여도 100%)</div>
                 <p class="text-small mb-3" v-html="portfolio.content"></p>
 
                 <div class="text-xsmall underline text-gray-400" v-if="portfolio.report">

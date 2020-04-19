@@ -1,5 +1,5 @@
 <template>
-    <section class="w-full flex flex-col justify-center items-center">
+    <section class="w-screen flex flex-col justify-center items-center">
         <div class="container musinsa text-center keep-all">
             <!--            1. 설문조사를 하게 된 이유-->
             <!--            2. 설문조사 결과는 어떤지-->

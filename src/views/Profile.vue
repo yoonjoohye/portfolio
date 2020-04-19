@@ -31,7 +31,7 @@
                         <div>인터랙티브미디어과</div>
                         <div>2016.03 ~ 2019.02(졸업)</div>
                     </div>
-                    <div class="py-5 pr-3">
+                    <div class="py-5">
                         <Icon v-for="item in skill" :name="item.name" :img="item.img"></Icon>
                     </div>
                 </div>

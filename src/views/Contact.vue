@@ -1,5 +1,5 @@
 <template>
-    <section class="padding bg-image w-screen h-screen flex flex-col justify-center items-center">
+    <section class="padding bg-image w-full h-screen flex flex-col justify-center items-center">
         <div class="text-big w-full text-center text-white font-semibold py-5 mb-10 border-b border-white">Thank you</div>
         <div class="w-full text-center">
             <div class="inline-block text-white">

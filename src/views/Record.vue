@@ -2,7 +2,7 @@
     <section class="w-full flex flex-col justify-center items-center border-b">
         <div class="container profile">
             <!--포트폴리오-->
-            <div class="flex justify-between flex-wrap py-5">
+            <div class="grid grid-cols-4-m gap-3 py-5">
                 <Portfolio v-for="(item,index) in portfolio" :thumbnail="item.thumbnail" :title="item.title"
                            :content="item.content"
                            :skill="item.skill" :index="index"></Portfolio>
