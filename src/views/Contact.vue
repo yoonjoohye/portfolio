@@ -1,13 +1,13 @@
 <template>
-    <section class="padding bg-image w-full h-screen flex flex-col justify-center items-center">
-        <div class="text-big w-full text-center text-white font-semibold py-5 mb-10 border-b border-white">Thank you</div>
+    <section class="padding bg-image w-full flex flex-col justify-center items-center">
+<!--        <div class="text-5xl w-full text-center text-white py-3 font-normal mb-5 border-b border-white">Thank you</div>-->
         <div class="w-full text-center">
             <div class="inline-block text-white">
                 <!--github-->
                 <div class="flex items-center mb-2 cursor-pointer">
                     <div><img class="w-5 mr-3" src="https://d2ajlnsxcxj87x.cloudfront.net/logo/github.svg"></div>
                     <div class="text-small">
-                        <a href="https://github.com/yoonjoohye" target="_blank">개인용 | https://github.com/yoonjoohye</a>
+                        <a href="https://github.com/yoonjoohye" target="_blank">GitHub | https://github.com/yoonjoohye</a>
                     </div>
                 </div>
 <!--                <div class="flex items-center mb-2 cursor-pointer">-->

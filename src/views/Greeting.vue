@@ -1,8 +1,8 @@
 <template>
-    <section class="padding bg-image w-full h-screen flex flex-col justify-center">
-        <div class="text-big text-white font-semibold py-3 mb-20">
-            안녕하세요,<br>
-            <div class="border-b border-white">Front-End 개발자<br class="only-mobile"> 윤주혜입니다.</div>
+    <section class="padding bg-image w-full flex flex-col justify-center">
+        <div class="text-center text-white mb-10">
+            <div class="text-6xl font-normal border-b border-white mb-5">윤주혜</div>
+            <div class="text-xl">변화는 있지만, 변함없는 개발자입니다.</div>
         </div>
     </section>
 </template>
