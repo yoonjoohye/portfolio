@@ -3,9 +3,9 @@
         <div class="container">
             <div class="flex flex-row-m">
                 <!--경력-->
-                <Career class="pr-3 sm:p-0"/>
+                <Career/>
                 <!--교육-->
-                <Edu class="pl-3 sm:p-0"/>
+                <Edu/>
             </div>
             <!--스킬-->
             <Skill/>

@@ -3,11 +3,11 @@
         <div class="mb-8">
             <span class="text-3xl border-b-4 border-orange-800 sm:text-xl">Career</span>
         </div>
-        <div>
+        <div class="flex flex-col items-center">
             <div class="mb-5" @click="goComento">
-                <img class="h-10 cursor-pointer sm:h-6 md:h-8" :src="require('../assets/images/logo/comento.svg')"/>
+                <img class="h-10 cursor-pointer sm:h-6" :src="require('../assets/images/logo/comento.svg')"/>
             </div>
-            <div class="md:text-left">
+            <div>
                 <div class="mb-5">
                     <div class="text-xl font-normal mb-3 sm:text-base">회사소개</div>
                     <div class="sm:text-sm keep-all">'취업 정보와 기회의 평등'이라는 비전으로 취업 멘토링을 서비스 중인 스타트업</div>
