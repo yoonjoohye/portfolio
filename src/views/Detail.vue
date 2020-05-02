@@ -1,6 +1,6 @@
 <template>
-    <section class="w-full flex flex-col justify-center items-center ">
-        <div class="container profile">
+    <section class="w-full flex flex-col justify-center items-center">
+        <div class="container">
             <div class="">
                 <div class="text-5xl font-medium mb-5">{{portfolio.title}}</div>
                 <div class="mb-5" v-if="portfolio.url!==''">

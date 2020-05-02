@@ -1,16 +1,16 @@
 <template>
     <section>
-        <!--포트폴리오-->
-        <div class="inline-block text-center text-3xl border-b-4 border-orange-800 text-orange-800 mb-5">Portfolio
+        <div class="mb-8">
+            <span class="text-3xl border-b-4 border-orange-800 sm:text-xl">Portfolio</span>
         </div>
-        <div class="grid grid-cols-4-m gap-3 py-5">
+        <!--포트폴리오-->
+        <div class="grid grid-cols-4-m gap-3 mb-8">
             <Portfolio v-for="(item,index) in portfolio" :thumbnail="item.thumbnail" :title="item.title"
                        :content="item.content"
                        :skill="item.skill" :index="index"></Portfolio>
         </div>
-
         <!--활동-->
-        <div class="masonry py-5">
+        <div class="masonry">
             <Activity v-for="(item,index) in activity" :thumbnail="item.thumbnail" :title="item.title"
                       :type="item.type"></Activity>
         </div>
