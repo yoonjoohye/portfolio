@@ -1,50 +1,71 @@
 <template>
     <section class="mb-10">
-        <div class="inline-block text-center text-3xl border-b-4 border-orange-800 text-orange-800 mb-5">Career</div>
+        <div class="flex flex-row">
+            <div class="w-1/2">
+                <div class="inline-block text-right text-3xl border-b-4 border-orange-800 text-orange-800 mb-5">
+                    Career
+                </div>
+                <div class="text-center py-5">
+                    <div class="mb-5">
+                        <img class="w-full h-12 cursor-pointer" :src="require('../assets/images/logo/comento.svg')"
+                             @click="goComento"/>
+                    </div>
 
-        <div class="mb-5">
-            <div class="text-3xl font-normal">
-                (주)코멘토
-                <a class="text-base font-light" href="https://comento.kr" target="_blank">https://comento.kr</a>
+                    <div class="mb-5">
+                        <div class="text-2xl font-normal mb-3">회사소개</div>
+                        <div>'취업 정보와 기회의 평등'이라는 비전으로 취업 멘토링을 서비스 중인 스타트업</div>
+                    </div>
+                    <div class="mb-5">
+                        <div class="text-2xl font-normal mb-3">기술스택</div>
+                        <div>Vue.js, Less, Scss, TailwindCSS</div>
+                    </div>
+                    <div class="mb-5">
+                        <div class="text-2xl font-normal mb-3">주요업무</div>
+                        <li>현장매칭 서비스 개발 및 리팩토링</li>
+                        <li>제휴 대학/기관 서비스 개발</li>
+                        <li>AI 자기소개서 분석기 리팩토링</li>
+                        <li>직무부트캠프 서비스 개발 및 실험</li>
+                        <li>BIZ 채용공고 서비스 리팩토링</li>
+                    </div>
+                </div>
             </div>
-            <div class="">Front-End Developer Intern</div>
-            <div>2019.01 ~ 2019.08 (8개월)</div>
+
+            <div class="w-1/2">
+                <div class="inline-block text-right text-3xl border-b-4 border-orange-800 text-orange-800 mb-5">
+                    Edu
+                </div>
+                <div class="text-center py-5">
+                    <div class="flex justify-center mb-5">
+                        <img class="h-12 cursor-pointer" :src="require('../assets/images/logo/mirim.png')"
+                             @click="goMirim"/>
+                    </div>
+                    <div class="mb-5">
+                        <div class="text-2xl font-normal mb-3">학교소개</div>
+                        <div>웹 개발자 마이스터 고등학교</div>
+                    </div>
+                    <div class="mb-5">
+                        <div class="text-2xl font-normal mb-3">배우는 과목</div>
+                        <li>1학년 : HTML, CSS, Javascript, Java, C</li>
+                        <li>2학년 : Java, PHP, MySQL, JQuery, 운영체제, 자료구조</li>
+                        <li>3학년 : Spring, JSP, ASP, C#, Oracle, 정보보호</li>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="mb-5">
-            <div class="text-2xl font-normal">회사소개</div>
-            <div>'취업 정보와 기회의 평등'이라는 비전으로 취업 멘토링을 서비스 중인 스타트업</div>
-        </div>
-
-
-        <div class="mb-5">
-            <div class="text-2xl font-normal">주요업무</div>
-            <ul>
-                <li>- 현장매칭 서비스 개발</li>
-                <li>- 제휴 대학/기관 서비스 개발</li>
-                <li>- AI 자기소개서 분석기 리팩토링</li>
-                <li>- 직무부트캠프 서비스 개발</li>
-                <li>- BIZ 채용공고 서비스 리팩토링</li>
-            </ul>
-        </div>
-
-
-        <div class="inline-block bg-orange-400 rounded text-base text-white py-2 px-3">
-            <a class="flex justify-center items-center"
-               href="https://drive.google.com/drive/folders/1kGlwKXYWo4R4-TAou7fAHpNHTIX6Gy9n?usp=sharing"
-               target="_blank">
-                이력서 보러가기
-                <img class="inline h-5 mr-1" src="../assets/images/logo/arrow.svg"
-                     alt="화살표 이미지">
-            </a>
-        </div>
-
     </section>
 </template>
 
 <script>
     export default {
-        name: "About"
+        name: "About",
+        methods: {
+            goComento: () => {
+                location.href = 'https://comento.kr';
+            },
+            goMirim:()=>{
+                location.href='https://www.e-mirim.hs.kr/main.do';
+            }
+        }
     }
 </script>
 
