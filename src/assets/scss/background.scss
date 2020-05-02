@@ -5,11 +5,13 @@
 
 body {
   margin: 0;
+  width:100%;
 }
 
 .bg {
   &-image {
-    background-image:url('../images/background.jpg');
+    background:linear-gradient(to right, #55d8ff, #ffda3b);
+    //background-image:url('https://gkofsflkibbo3126162.cdn.ntruss.com/background.jpg');
     background-size: cover;
     background-position: center;
   }

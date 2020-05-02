@@ -1,59 +1,92 @@
 .masonry {
-  column-count: 3;
-  column-gap: 1em;
-  @media(max-width:480px){
+  column-count: 4;
+  column-gap: 0.8em;
+  @media(max-width: 480px) {
     column-count: 2;
 
   }
-  &-detail{
+
+  &-detail {
     column-count: 2;
     column-gap: 1em;
-    @media(max-width:480px){
+    @media(max-width: 480px) {
       column-count: 1;
 
     }
   }
 }
+
 .item { /* Masonry bricks or child elements */
-  background:transparent;
+  background: transparent;
   display: inline;
   width: 100%;
 }
 
-.container{
-  &.profile {
-    padding: 6rem 2.5rem;
+.grid {
+  display: grid;
+  &-cols-4-m {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     @media(max-width: 480px) {
-      padding: 2.5rem 1rem;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
     }
   }
-  &.detail{
+}
+
+.gap-3{
+  gap: 0.75rem;
+}
+
+.container {
+  &.profile {
+    padding: 5rem 12rem;
+    @media(max-width: 1024px) {
+      padding: 3rem 2rem;
+    }
+    @media(max-width: 480px) {
+      padding: 2.5rem 1.5rem;
+    }
+  }
+
+  &.detail {
     padding: 4rem 2.5rem 12rem;
     @media(max-width: 480px) {
       padding: 2.5rem 1rem 17rem;
     }
   }
-  &.musinsa{
+
+  &.musinsa {
     padding: 4rem 2.5rem;
     @media(max-width: 480px) {
       padding: 2.5rem 1rem;
     }
   }
 }
-.flex-row-m{
+
+.flex-row-m {
   flex-direction: row;
-  @media(max-width:480px){
+  @media(max-width: 480px) {
     flex-direction: column;
   }
 }
-.padding{
-  padding: 5rem;
-  @media(max-width:480px){
-    padding: 2rem;
+
+.padding {
+  padding: 3rem 12rem;
+  @media(max-width: 1024px) {
+    padding: 2.5rem 2rem;
+  }
+  @media(max-width: 480px) {
+    padding: 2rem 1.5rem;
   }
 }
-.margin{
-  @media(max-width:480px){
+
+.margin {
+  @media(max-width: 480px) {
     margin-right: auto;
   }
+}
+.bottom-10{
+  bottom:10%;
+}
+.right-10{
+  right:10%;
 }

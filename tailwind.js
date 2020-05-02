@@ -1,7 +1,24 @@
+const { colors } = require('tailwindcss/defaultTheme');
+
 module.exports = {
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        orange: {
+          ...colors.orange,
+          '800': '#6b5f53',
+          '900':'#9c9790',
+        }
+      }
+    },
+    screens:{
+      'sm': {'max': '480px'},
+      'md': {'max': '1024px'},
+    }
   },
   variants: {},
-  plugins: []
+  plugins: [
+    require('tailwindcss'),
+    require('autoprefixer'),
+  ]
 }
