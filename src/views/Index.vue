@@ -4,10 +4,8 @@
         <Resume></Resume>
         <!--인사말-->
         <Greeting></Greeting>
-
         <!--프로필-->
         <Profile></Profile>
-
         <!--연락처-->
         <Contact></Contact>
     </section>
