@@ -37,10 +37,6 @@
                     <li>{{item}}</li>
                 </div>
             </div>
-            <div class="mb-10">
-                <div class="border-l-4 border-gray-700 pl-3 text-xl sm:text-lg font-normal mb-3">느낀 점</div>
-                <p class="text-small" v-html="portfolio.devReview"></p>
-            </div>
 
             <div>
                 <div class="border-l-4 border-gray-700 pl-3 text-xl sm:text-lg font-normal mb-3">스크린샷</div>

@@ -3,9 +3,11 @@
         <div class="mb-8">
             <span class="text-3xl border-b-4 border-orange-800 sm:text-xl">Edu</span>
         </div>
-        <div class="flex flex-col items-center">
-            <div class="text-left mb-5" @click="goMirim">
-                <img class="h-10 cursor-pointer sm:h-6" :src="require('../assets/images/logo/mirim.png')"/>
+        <div class="flex flex-col items-center sm:items-start">
+            <div class="w-full flex flex-col items-center">
+                <div class="mb-5" @click="goMirim">
+                    <img class="h-10 cursor-pointer sm:h-6" :src="require('../assets/images/logo/mirim.png')"/>
+                </div>
             </div>
             <div>
                 <div class="mb-5">

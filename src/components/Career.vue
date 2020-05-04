@@ -7,7 +7,7 @@
             <div class="mb-5" @click="goComento">
                 <img class="h-10 cursor-pointer sm:h-6" :src="require('../assets/images/logo/comento.svg')"/>
             </div>
-            <div>
+            <div class="">
                 <div class="mb-5">
                     <div class="text-xl font-normal mb-3 sm:text-base">회사소개</div>
                     <div class="sm:text-sm keep-all">'취업 정보와 기회의 평등'이라는 비전으로 취업 멘토링을 서비스 중인 스타트업</div>
