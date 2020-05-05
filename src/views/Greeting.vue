@@ -2,7 +2,7 @@
     <section class="container bg-image w-full flex flex-col justify-center">
         <div class="text-center text-white">
             <div class="text-6xl font-normal border-b border-white mb-5 sm:mb-4 sm:text-3xl">윤주혜</div>
-            <div class="text-xl sm:text-sm">변화는 있지만, 변함없는 개발자입니다.</div>
+            <div class="text-xl sm:text-sm">변화는 있지만, 변함없는 개발자</div>
         </div>
     </section>
 </template>

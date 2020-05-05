@@ -23,6 +23,6 @@
         name: 'Index',
         components: {
             Greeting, Profile, Contact,Resume
-        }
+        },
     }
 </script>

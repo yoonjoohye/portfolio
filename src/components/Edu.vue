@@ -6,7 +6,7 @@
         <div class="flex flex-col items-center sm:items-start">
             <div class="w-full flex flex-col items-center">
                 <div class="mb-5" @click="goMirim">
-                    <img class="h-10 cursor-pointer sm:h-6" :src="require('../assets/images/logo/mirim.png')"/>
+                    <img class="h-10 cursor-pointer sm:h-6" src="https://d2ajlnsxcxj87x.cloudfront.net/logo/mirim.png"/>
                 </div>
             </div>
             <div>

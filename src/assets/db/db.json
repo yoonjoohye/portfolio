@@ -39,20 +39,19 @@
   ],
   "portfolio": [
     {
-      "thumbnail": "mandal.png",
+      "thumbnail": "sharidea.png",
       "img": [
-        "mandal1.png",
-        "mandal2.png",
-        "mandal3.png",
-        "mandal4.png",
-        "mandal5.png"
+        "sharidea1.png",
+        "sharidea2.png",
+        "sharidea3.png",
+        "sharidea4.png"
       ],
       "title": "SHARIDEA",
       "content": "브레인 스토밍 기법을 기반으로 아이디어를 자유롭게 작성할 수 있는 사이트임.",
       "devReason": "토이 프로젝트를 정할 때마다 아이디어가 생각이 나지 않아서, 자유롭게 작성할 수 있는 아이디어 사이트를 개발하게 됨.",
       "devStory": [
         "Apollo-client를 추가하여 GraphQL을 사용함.",
-        "브레인 스토밍 기법의 핵심은 피드백을 받지 않는 것이지만, 피드백을 받을 것인지, 아닌지 선택할 수 있게 함.",
+        "피드백 받는 여부를 선택할 수 있게 함.",
         "유저타입을 관리자와 일반유저로 분리함.",
         "주제를 입력할 때 자동완성을 추가함."
       ],
