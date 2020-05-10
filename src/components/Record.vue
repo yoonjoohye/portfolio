@@ -1,7 +1,7 @@
 <template>
     <section>
         <div class="mb-8">
-            <span class="text-3xl border-b-4 border-orange-800 sm:text-xl">Portfolio</span>
+            <span class="text-3xl border-b-4 border-orange-800 sm:text-xl sm:border-b-2">Portfolio</span>
         </div>
         <!--포트폴리오-->
         <div class="grid grid-cols-4-m gap-3 mb-8">

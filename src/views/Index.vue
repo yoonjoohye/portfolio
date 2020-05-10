@@ -1,7 +1,7 @@
 <template>
     <section>
         <!--이력서-->
-        <Resume></Resume>
+        <Float></Float>
         <!--인사말-->
         <Greeting></Greeting>
         <!--프로필-->
@@ -16,13 +16,13 @@
     import Greeting from '@/views/Greeting.vue';
     import Profile from '@/views/Profile.vue';
     import Contact from '@/views/Contact.vue';
-    import Resume from '@/components/Resume.vue';
+    import Float from '@/components/Float.vue';
 
 
     export default {
         name: 'Index',
         components: {
-            Greeting, Profile, Contact,Resume
+            Greeting, Profile, Contact,Float
         },
     }
 </script>

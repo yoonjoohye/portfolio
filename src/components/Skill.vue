@@ -1,7 +1,7 @@
 <template>
     <section class="mb-10 sm:mb-5">
         <div class="mb-8">
-            <span class="text-3xl border-b-4 border-orange-800 sm:text-xl">Skill</span>
+            <span class="text-3xl border-b-4 border-orange-800 sm:text-xl sm:border-b-2">Skill</span>
         </div>
         <div class="text-center">
             <Icon v-for="item in skill" :name="item.name" :img="item.img"></Icon>

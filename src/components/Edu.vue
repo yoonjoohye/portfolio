@@ -1,7 +1,7 @@
 <template>
     <section class="mb-10 w-full sm:mb-5">
         <div class="mb-8">
-            <span class="text-3xl border-b-4 border-orange-800 sm:text-xl">Edu</span>
+            <span class="text-3xl border-b-4 border-orange-800 sm:text-xl sm:border-b-2">Edu</span>
         </div>
         <div class="flex flex-col items-center sm:items-start">
             <div class="w-full flex flex-col items-center">
