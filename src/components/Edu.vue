@@ -20,9 +20,9 @@
                 </div>
                 <div class="mb-5">
                     <div class="text-xl font-normal mb-3 sm:text-base">교육과정</div>
-                    <li class="sm:text-sm">1학년 : HTML, CSS, Javascript, Java, C</li>
-                    <li class="sm:text-sm">2학년 : PHP, MySQL, JQuery, C++ 운영체제, 자료구조</li>
-                    <li class="sm:text-sm">3학년 : Spring, JSP, ASP, C#, Oracle, 정보보호</li>
+                    <li class="sm:text-sm"> 1학년 : C, Java, HTML, CSS, Javascript</li>
+                    <li class="sm:text-sm">2학년 :  C++, JQuery, PHP, MySQL, 운영체제, 자료구조</li>
+                    <li class="sm:text-sm">3학년 : C#, JSP, Spring, ASP.NET, MS-SQL, Oracle, 정보보호</li>
                 </div>
             </div>
         </div>

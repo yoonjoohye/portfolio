@@ -1,28 +1,40 @@
-@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
+//@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
+
+@font-face {
+  font-family: 'NanumSquareRoundL';
+  src: url('../font/NanumSquareRoundL.eot');
+  src: url('../font/NanumSquareRoundL.eot?#iefix') format('embedded-opentype'),
+    url('../font/NanumSquareRoundL.woff2') format('woff2'),
+    url('../font/NanumSquareRoundL.woff') format('woff'),
+    url('../font/NanumSquareRoundL.ttf') format('truetype');
+}
 
 body {
-  font-family: 'NanumSquareRound', Helvetica, Arial, sans-serif;
-  font-weight:300;
-  color:#404040;
+  font-family: 'NanumSquareRoundL', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #404040;
 }
-.keep-all{
+
+.keep-all {
   word-break: keep-all;
 }
 
-.text{
+.text {
   &-big {
     font-size: 4rem;
     @media(max-width: 480px) {
       font-size: 2rem;
     }
   }
-  &-small{
+
+  &-small {
     font-size: 1rem;
     @media(max-width: 480px) {
       font-size: 0.8rem;
     }
   }
-  &-xsmall{
+
+  &-xsmall {
     font-size: 0.8rem;
     @media(max-width: 480px) {
       font-size: 0.6rem;
