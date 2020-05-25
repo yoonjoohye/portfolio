@@ -1,5 +1,5 @@
 <template>
-    <section class="w-full flex flex-col justify-center items-center ">
+    <section class="w-full flex flex-col justify-center items-center">
         <div class="container">
             <div class="flex flex-row-m">
                 <!--경력-->

@@ -1,5 +1,5 @@
 <template>
-    <section class="mb-10 w-full sm:mb-5">
+    <section class="mb-10 w-full sm:mb-8">
         <div class="mb-8">
             <span class="text-3xl border-b-4 border-orange-800 sm:text-xl sm:border-b-2">Edu</span>
         </div>
@@ -21,8 +21,8 @@
                 <div class="mb-5">
                     <div class="text-xl font-normal mb-3 sm:text-base">교육과정</div>
                     <li class="sm:text-sm"> 1학년 : C, Java, HTML, CSS, Javascript</li>
-                    <li class="sm:text-sm">2학년 :  C++, JQuery, PHP, MySQL, 운영체제, 자료구조</li>
-                    <li class="sm:text-sm">3학년 : C#, JSP, Spring, ASP.NET, MS-SQL, Oracle, 정보보호</li>
+                    <li class="sm:text-sm">2학년 : C++, JQuery, PHP, MySQL, 운영체제, 자료구조</li>
+                    <li class="sm:text-sm">3학년 : C#  JSP, Spring, ASP.NET, MS-SQL, Oracle, 정보보호</li>
                 </div>
             </div>
         </div>

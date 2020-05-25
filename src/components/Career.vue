@@ -1,5 +1,5 @@
 <template>
-    <section class="mb-10 w-full sm:mb-5">
+    <section class="mb-10 w-full sm:mb-8 mr-10">
         <div class="mb-8">
             <span class="text-3xl border-b-4 border-orange-800 sm:text-xl sm:border-b-2">Career</span>
         </div>
@@ -18,11 +18,11 @@
                 </div>
                 <div class="mb-5">
                     <div class="text-xl font-normal mb-3 sm:text-base">주요업무</div>
-                    <li class="sm:text-sm cursor-pointer underline" @click="goDetail(3)">현장매칭 서비스 개발 및 리팩토링 ></li>
-                    <li class="sm:text-sm cursor-pointer underline" @click="goDetail(4)">대학/기관 제휴 서비스 개발 ></li>
-                    <li class="sm:text-sm cursor-pointer underline" @click="goDetail(5)">AI 자기소개서 분석기 리팩토링 ></li>
-                    <li class="sm:text-sm cursor-pointer underline" @click="goDetail(7)">직무부트캠프 서비스 개발 및 실험 ></li>
-                    <li class="sm:text-sm cursor-pointer underline" @click="goDetail(8)">BIZ 채용공고 서비스 리팩토링 ></li>
+                    <li class="sm:text-sm cursor-pointer hover:text-green-500" @click="goDetail(3)">현장매칭 서비스 개발 및 리팩토링 ></li>
+                    <li class="sm:text-sm cursor-pointer hover:text-green-500" @click="goDetail(4)">대학/기관 제휴 서비스 개발 ></li>
+                    <li class="sm:text-sm cursor-pointer hover:text-green-500" @click="goDetail(5)">AI 자기소개서 분석기 리팩토링 ></li>
+                    <li class="sm:text-sm cursor-pointer hover:text-green-500" @click="goDetail(7)">직무부트캠프 서비스 개발 및 실험 ></li>
+                    <li class="sm:text-sm cursor-pointer hover:text-green-500" @click="goDetail(8)">BIZ 채용공고 서비스 리팩토링 ></li>
                 </div>
             </div>
         </div>

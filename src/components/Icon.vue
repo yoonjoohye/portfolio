@@ -1,8 +1,8 @@
 <template>
-    <div class="inline-block mr-3 mb-3">
-        <div class="p-2 flex justify-center items-center">
-            <img class="h-5 mr-1" :src="`https://d2ajlnsxcxj87x.cloudfront.net/logo/${img}`">
-            <div class="text-gray-800 sm:text-sm">{{name}}</div>
+    <div class="inline-block border border-gray-600 rounded-full mr-3 mb-3">
+        <div class="px-2 py-1 flex justify-center items-center">
+            <img class="h-4 mr-1" :src="`https://d2ajlnsxcxj87x.cloudfront.net/logo/${img}`">
+            <div class="font-normal text-sm">{{name}}</div>
         </div>
     </div>
 </template>

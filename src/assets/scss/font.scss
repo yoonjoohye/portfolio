@@ -1,4 +1,4 @@
-//@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
+@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
 
 @font-face {
   font-family: 'NanumSquareRoundL';
@@ -8,11 +8,18 @@
     url('../font/NanumSquareRoundL.woff') format('woff'),
     url('../font/NanumSquareRoundL.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'NanumSquareR';
+  src: url('../font/NanumSquareR.eot');
+  src: url('../font/NanumSquareR.eot?#iefix') format('embedded-opentype'),
+  url('../font/NanumSquareR.woff') format('woff'),
+  url('../font/NanumSquareR.ttf') format('truetype');
+}
 
 body {
-  font-family: 'NanumSquareRoundL', Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-family:'NanumSquare', Helvetica, Arial, sans-serif;
   color: #404040;
+  font-weight:300;
 }
 
 .keep-all {

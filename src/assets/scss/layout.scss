@@ -27,13 +27,22 @@
 .grid {
   display: grid;
 
-  &-cols-4-m {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+  &-cols-3-m {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     @media(max-width: 1024px) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
     @media(max-width: 480px) {
       grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+  &-cols-4-m{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    @media(max-width: 1024px) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    @media(max-width: 480px) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
 }

@@ -15,6 +15,9 @@ body {
     background-size: cover;
     background-position: center;
   }
+  &-gradient{
+    background:linear-gradient(to bottom, #b7daa0, #ffda3b);
+  }
   &-gray {
     background-color: #fbfbfb;
   }
