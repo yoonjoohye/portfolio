@@ -6,7 +6,7 @@
             <img class="w-full" :src="`https://d2ajlnsxcxj87x.cloudfront.net/logo/${item.img}`">
         </a>
         <button class="floating-btn" @click="isOpen=!isOpen">
-            탭
+            ?
         </button>
 
     </div>
@@ -72,7 +72,7 @@
         top: 0;
         right: 0;
         z-index: -2;
-        border: 1px solid rgba(0, 0, 0, 0.60);
+        box-shadow:0 0 10px rgba(0, 0, 0, 0.13);
         background: rgba(255, 255, 255, 0.90);
         /*background:linear-gradient(to right, #55d8ff, #ffda3b);*/
         transition: all .3s ease;
@@ -97,7 +97,7 @@
         border-radius: 50%;
         text-align: center;
         line-height: 3;
-        background-color: rgba(0, 0, 0, 0.60);
+        background-color: rgba(0, 0, 0, 0.70);
         transition: transform .3s ease-in-out, background .2s ease-in-out;
     }
 

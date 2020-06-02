@@ -295,7 +295,7 @@
   "activity": [
     {
       "type": "활동",
-      "color": "#ce9551",
+      "color": "#6594ff",
       "thumbnail": "feconf.jpg",
       "title": "FEconf 2019 스태프",
       "date": "2019-10",
@@ -303,15 +303,15 @@
     },
     {
       "type": "활동",
-      "color": "#f7ad3f",
+      "color": "#ffa7e0",
       "thumbnail": "jcc.jpg",
-      "title": "Java Creative Club 동아리",
+      "title": "JCC 동아리",
       "date": "2016-03",
       "contents": "자바 동아리 부원으로 공모전 및 학교 행사에 참여함."
     },
     {
       "type": "활동",
-      "color": "#ffd043",
+      "color": "#ffc800",
       "thumbnail": "school1.jpg",
       "title": "2018 졸업 작품 전시회",
       "date": "2018-06",
@@ -321,7 +321,7 @@
       "type": "공모전",
       "color": "#87c6fb",
       "thumbnail": "contest2.png",
-      "title": "신세계아이앤씨 IT's 챌린지 대회",
+      "title": "IT's 챌린지 대회",
       "date": "2017-06",
       "contents": "IDO 아동학대 대상 신고 어플을 개발함."
     },
@@ -335,7 +335,7 @@
     },
     {
       "type": "활동",
-      "color": "#c3c3c3",
+      "color": "#b1b1b1",
       "thumbnail": "school2.jpeg",
       "title": "제27기 학생회",
       "date": "2017-08",

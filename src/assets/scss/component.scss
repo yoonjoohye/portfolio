@@ -91,7 +91,7 @@
 
   &-skill {
     transform: translateX(calc(100% + 2.2rem));
-    @media(max-width:480px){
+    @media(max-width:1024px){
       transform: translateX(0px);
       transition: transform .35s;
       -o-transition: transform .35s;
