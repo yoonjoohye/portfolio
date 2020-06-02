@@ -75,10 +75,6 @@
 }
 
 .portfolio {
-  &-title {
-    border-bottom:2px solid white;
-  }
-
   &-img {
     overflow: hidden;
     & > img {
@@ -95,6 +91,13 @@
 
   &-skill {
     transform: translateX(calc(100% + 2.2rem));
+    @media(max-width:480px){
+      transform: translateX(0px);
+      transition: transform .35s;
+      -o-transition: transform .35s;
+      -moz-transition: transform .35s;
+      -webkit-transition: transform .35s;
+    }
     &-hover {
       transform: translateX(0px);
       transition: transform .35s;

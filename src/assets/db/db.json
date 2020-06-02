@@ -8,10 +8,6 @@
           "img": "vue.png"
         },
         {
-          "name": "Nuxt",
-          "img": "nuxt.png"
-        },
-        {
           "name": "React",
           "img": "react.png"
         },
@@ -48,36 +44,6 @@
     }
   ],
   "portfolio": [
-    {
-      "thumbnail": "sharidea.png",
-      "img": [
-        "sharidea1.png",
-        "sharidea2.png",
-        "sharidea3.png",
-        "sharidea4.png"
-      ],
-      "color": "#3181ce",
-      "title": "SHARIDEA",
-      "content": "브레인 스토밍 기법을 기반으로 아이디어를 자유롭게 작성할 수 있는 사이트임.",
-      "devReason": "토이 프로젝트를 정할 때마다 아이디어가 생각이 나지 않아서, 자유롭게 작성할 수 있는 아이디어 사이트를 개발하게 됨.",
-      "devStory": [
-        "Apollo-client를 추가하여 GraphQL을 사용함.",
-        "피드백 받는 여부를 선택할 수 있게 함.",
-        "유저타입을 관리자와 일반유저로 분리함.",
-        "주제를 입력할 때 자동완성을 추가함."
-      ],
-      "devReview": "Sapper에 대한 문서가 너무 부족한 것 같음. 찾아보기가 쉽지 않았음.",
-      "skill": [
-        "Svelte",
-        "Sapper",
-        "TailwindCSS",
-        "GraphQL",
-        "Apollo"
-      ],
-      "url": "",
-      "team": "2",
-      "date": "2020.03 ~ 현재"
-    },
     {
       "thumbnail": "mandal.png",
       "img": [
@@ -329,38 +295,83 @@
   "activity": [
     {
       "type": "활동",
+      "color": "#ce9551",
       "thumbnail": "feconf.jpg",
-      "title": "FEconf 2019 스태프"
+      "title": "FEconf 2019 스태프",
+      "date": "2019-10",
+      "contents": "FEconf 2019 컨퍼런스에 스태프로 선발되어 참여함."
     },
     {
       "type": "활동",
+      "color": "#f7ad3f",
       "thumbnail": "jcc.jpg",
-      "title": "Java Creative Club 동아리"
+      "title": "Java Creative Club 동아리",
+      "date": "2016-03",
+      "contents": "자바 동아리 부원으로 공모전 및 학교 행사에 참여함."
     },
     {
       "type": "활동",
+      "color": "#ffd043",
       "thumbnail": "school1.jpg",
-      "title": "2018 졸업 작품 전시회"
+      "title": "2018 졸업 작품 전시회",
+      "date": "2018-06",
+      "contents": "부크부크 책 쇼핑몰을 개발하여 졸업작품 전시회를 엶."
     },
     {
       "type": "공모전",
+      "color": "#87c6fb",
       "thumbnail": "contest2.png",
-      "title": "신세계아이앤씨 IT's 챌린지 대회"
+      "title": "신세계아이앤씨 IT's 챌린지 대회",
+      "date": "2017-06",
+      "contents": "IDO 아동학대 대상 신고 어플을 개발함."
     },
     {
       "type": "공모전",
+      "color": "#528ee6",
       "thumbnail": "contest1.jpg",
-      "title": "2016 소셜벤처경연대회"
+      "title": "2016 소셜벤처경연대회",
+      "date": "2016-10",
+      "contents": "학업 스트레스를 풀 수 있는 휠링쉼터를 기획하게 됨."
     },
     {
       "type": "활동",
+      "color": "#c3c3c3",
       "thumbnail": "school2.jpeg",
-      "title": "제27기 학생회"
-    },
+      "title": "제27기 학생회",
+      "date": "2017-08",
+      "contents": "학생회 회계를 맡음. 각종 학교 행사 및 봉사 참여함."
+    }
+  ],
+  "no": [
     {
-      "type": "공모전",
-      "thumbnail": "appjam.png",
-      "title": "제12회 APP JAM 해커톤"
+      "thumbnail": "sharidea.png",
+      "img": [
+        "sharidea1.png",
+        "sharidea2.png",
+        "sharidea3.png",
+        "sharidea4.png"
+      ],
+      "color": "#3181ce",
+      "title": "SHARIDEA",
+      "content": "브레인 스토밍 기법을 기반으로 아이디어를 자유롭게 작성할 수 있는 사이트임.",
+      "devReason": "토이 프로젝트를 정할 때마다 아이디어가 생각이 나지 않아서, 자유롭게 작성할 수 있는 아이디어 사이트를 개발하게 됨.",
+      "devStory": [
+        "Apollo-client를 추가하여 GraphQL을 사용함.",
+        "피드백 받는 여부를 선택할 수 있게 함.",
+        "유저타입을 관리자와 일반유저로 분리함.",
+        "주제를 입력할 때 자동완성을 추가함."
+      ],
+      "devReview": "Sapper에 대한 문서가 너무 부족한 것 같음. 찾아보기가 쉽지 않았음.",
+      "skill": [
+        "Svelte",
+        "Sapper",
+        "TailwindCSS",
+        "GraphQL",
+        "Apollo"
+      ],
+      "url": "",
+      "team": "2",
+      "date": "2020.03 ~ 현재"
     }
   ]
 }

@@ -12,6 +12,11 @@
         name: 'Greeting',
         props: {
             msg: String
+        },
+        data(){
+            return{
+
+            }
         }
     }
 </script>

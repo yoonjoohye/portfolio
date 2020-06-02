@@ -1,20 +1,20 @@
 <template>
-    <div class="item">
-        <figure class="activity-box mb-4">
-            <img class="activity-img rounded-lg" :src="`https://d2ajlnsxcxj87x.cloudfront.net/portfolio/${thumbnail}`"
-                 :alt="title">
-            <figcaption class="activity-content rounded-lg">
-<!--                <span class="text-white px-2 text-xs font-normal text-white mb-1 only-pc">{{type}}</span>-->
-                <div class="text-lg sm:text-xs font-medium text-white mb-5">{{title}}</div>
-            </figcaption>
-        </figure>
+    <div class="h-68 shadow-right rounded-lg flex flex-row-m items-center p-5" >
+        <img class="ml--2 w-56 sm:h-32 relative shadow-right rounded-lg mr-5 sm:ml-0 sm:mr-0 sm:mb-2" :src="`https://d2ajlnsxcxj87x.cloudfront.net/portfolio/${thumbnail}`"
+             :alt="title">
+        <div class="">
+            <div class="text-xsmall font-light keep-all ">{{date}}</div>
+            <div class="text-2xl font-medium sm:text-base mb-5 sm:mb-2 keep-all">{{title}}</div>
+            <div class="text-small keep-all">{{contents}}</div>
+
+        </div>
     </div>
 </template>
 
 <script>
     export default {
         name: "Activity",
-        props: {thumbnail: String, title: String, type:String},
+        props: {color:String, date:String, thumbnail: String, title: String, type:String, contents:String},
 
     }
 </script>
