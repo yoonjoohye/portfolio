@@ -6,7 +6,7 @@
                  :alt="title"/>
         </div>
         <figcaption
-                class="z-2 w-full h-full rounded-lg top-0 bottom-0 absolute text-white p-8 bg-black-opacity overflow-hidden sm:bg-black-opacity-dark"
+                class="z-2 w-full h-full rounded-lg top-0 bottom-0 absolute text-white p-8 bg-black-opacity overflow-hidden"
                 :class="isHover? 'bg-black-opacity-dark' : ''">
             <div class="font-normal font-white text-2xl mb-2 sm:text-lg sm:border-b sm:border-white"
                  :class="isHover? 'border-b-2 border-white' : ''">{{title}}
