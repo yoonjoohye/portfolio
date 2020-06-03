@@ -19,7 +19,7 @@ module.exports = {
             backgroundColor: {
                 'black': {
                     'opacity': 'rgba(0,0,0,0.2)',
-                    'opacity-dark':'rgba(0, 0, 0, 0.35)'
+                    'opacity-dark':'rgba(0,0,0,0.4)'
                 }
             },
             colors: {
