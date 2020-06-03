@@ -67,6 +67,7 @@
       "devReview": "실제로 사용하는 유저가 있고, 글자수 제한을 풀어달라는 피드백을 받기도 했음. 또한 개선할 점들을 스스로 고민하면서, SMART 기법 기획을 계획하게 됐음.",
       "skill": [
         "React",
+        "Redux",
         "Scss",
         "Firebase"
       ],
@@ -173,8 +174,7 @@
       "skill": [
         "Vue",
         "Less",
-        "ApexCharts.js",
-        "vue-awesome-swiper"
+        "ApexCharts.js"
       ],
       "url": "https://comento.info/univ/dashboard",
       "team": "2",
