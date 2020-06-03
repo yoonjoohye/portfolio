@@ -8,7 +8,7 @@
                 <img class="w-20 h-20 cursor-pointer sm:h-16 sm:w-16" :src="require('../assets/images/logo/mirim1.png')"/>
             </div>
             <div>
-                <div class="text-xl font-normal mb-3 sm:text-base sm:mb-2">미림여자정보과학고등학교</div>
+                <div class="text-lg font-medium sm:text-base mb-2">미림여자정보과학고등학교</div>
                 <div class="text-gray-600 font-light sm:text-sm keep-all">인터랙티브미디어과</div>
                 <div class="text-gray-600 font-light sm:text-sm keep-all">2016.03~2019.02 (졸업)</div>
             </div>
