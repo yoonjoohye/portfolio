@@ -8,16 +8,9 @@
                 <img class="w-20 h-20 cursor-pointer sm:h-16 sm:w-16" :src="require('../assets/images/logo/comento.png')"/>
             </div>
             <div>
-                <div class="text-xl font-normal mb-3 sm:text-base">(주)코멘토</div>
+                <div class="text-xl font-normal mb-3 sm:text-base sm:mb-2">(주)코멘토</div>
                 <div class="text-gray-600 font-light sm:text-sm keep-all">Front-end 개발 (인턴)</div>
                 <div class="text-gray-600 font-light sm:text-sm keep-all">2019.01~2019.08 (8개월)</div>
-<!--                <div>-->
-<!--                    <li class="sm:text-sm cursor-pointer hover:text-green-500" @click="goDetail(3)">현장매칭 서비스 개발 및 리팩토링 ></li>-->
-<!--                    <li class="sm:text-sm cursor-pointer hover:text-green-500" @click="goDetail(4)">대학/기관 제휴 서비스 개발 ></li>-->
-<!--                    <li class="sm:text-sm cursor-pointer hover:text-green-500" @click="goDetail(5)">AI 자기소개서 분석기 리팩토링 ></li>-->
-<!--                    <li class="sm:text-sm cursor-pointer hover:text-green-500" @click="goDetail(7)">직무부트캠프 서비스 개발 및 실험 ></li>-->
-<!--                    <li class="sm:text-sm cursor-pointer hover:text-green-500" @click="goDetail(8)">BIZ 채용공고 서비스 리팩토링 ></li>-->
-<!--                </div>-->
             </div>
         </div>
 
@@ -30,10 +23,6 @@
         methods: {
             goComento: () => {
                 window.open('https://comento.kr', '_blank');
-            },
-            goDetail:(idx)=>{
-                location.href=`/detail/${idx}`;
-
             }
         }
     }
