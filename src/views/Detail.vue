@@ -2,11 +2,11 @@
     <section class="w-full flex flex-col justify-center items-center">
         <div class="bg-image w-full h-8 sm:h-4"></div>
         <div class="container">
-            <div class="flex flex-row items-center justify-between mb-5">
+            <div class="flex flex-row-m items-center justify-between mb-5">
                 <div class="text-5xl font-medium sm:text-2xl">{{portfolio.title}}</div>
                 <div class="text-xsmall">
                     <div v-if="portfolio.url!==''">
-                        <a class="underline text-gray-700" :href="portfolio.url"
+                        <a class="underline text-gray-700 hover:text-gray-600" :href="portfolio.url"
                            target="_blank">{{portfolio.url}}</a>
                     </div>
                     <div class="underline text-gray-700" v-if="portfolio.report">
@@ -42,7 +42,7 @@
                 <div class="border-l-4 border-gray-700 pl-3 text-xl sm:text-lg font-normal mb-3">스크린샷</div>
                 <div class="masonry-detail">
                     <div class="item" v-for="item in portfolio.img">
-                        <img class="mb-4 shadow-lg" :src="`https://d2ajlnsxcxj87x.cloudfront.net/portfolio/${item}`">
+                        <img class="mb-4 shadow-lg rounded-lg" :src="`https://d2ajlnsxcxj87x.cloudfront.net/portfolio/${item}`">
                     </div>
                 </div>
             </div>
