@@ -2,6 +2,7 @@
   position: fixed;
   bottom: 1em;
   right: 1em;
+
   &:after {
     display: block;
     content: ' ';
@@ -17,26 +18,54 @@
     background: rgba(255, 255, 255, 0.90);
     transition: all .3s ease;
   }
+
   &.active:after {
     transform: scale3d(5.5, 5.5, 1);
     transition-timing-function: cubic-bezier(.68, 1.55, .265, 1);
   }
 }
 
+//.menu {
+//  position: absolute;
+//  top: .2em;
+//  right: .2em;
+//  z-index: -1;
+//  display: block;
+//  text-decoration: none;
+//  color: #fff;
+//  font-size: 1em;
+//  width: 3em;
+//  height: 3em;
+//  border-radius: 50%;
+//  text-align: center;
+//  line-height: 3;
+//  transition: transform .3s ease-in-out, background .2s ease-in-out;
+//  transition-timing-function: ease-in-out;
+//
+//}
+//.menu {
+//  &:nth-child(1) .menu-item {
+//    background-color: #7ed8dc;
+//    transform: translate3d(-0.5em, -7em, 0);
+//  }
+//
+//  &:nth-child(2) .menu-item {
+//    background-color: #b4daa4;
+//    transform: translate3d(-4.8em, -5em, 0);
+//  }
+//
+//  &:nth-child(3) .menu-item {
+//    background-color: #eaba62;
+//    transform: translate3d(-7em, -0.5em, 0);
+//  }
+//}
+
 .menu-item {
   position: absolute;
-  top: .2em;
-  right: .2em;
-  z-index: -1;
-  display: block;
-  text-decoration: none;
-  color: hsl(0, 0%, 100%);
-  font-size: 1em;
-  width: 3em;
-  height: 3em;
+  width: 3.5em;
+  height: 3.5em;
+  //display: block;
   border-radius: 50%;
-  text-align: center;
-  line-height: 3;
   transition: transform .3s ease-in-out, background .2s ease-in-out;
   transition-timing-function: ease-in-out;
 
@@ -45,19 +74,19 @@
   }
 
   &:nth-child(1) {
-    background-color:#7ed8dc;
+    background-color: #7ed8dc;
     transform: translate3d(-0.5em, -7em, 0);
   }
+
   &:nth-child(2) {
     background-color: #b4daa4;
     transform: translate3d(-4.8em, -5em, 0);
   }
+
   &:nth-child(3) {
     background-color: #eaba62;
     transform: translate3d(-7em, -0.5em, 0);
   }
-
-
 }
 
 .floating-btn {
@@ -71,14 +100,20 @@
   text-align: center;
   line-height: 3.9;
   cursor: pointer;
-  &:focus{
-    outline:none;
+
+  &:focus {
+    outline: none;
   }
+}
+
+.bubble {
+  position: relative;
 }
 
 .portfolio {
   &-img {
     overflow: hidden;
+
     & > img {
       transform: scale(1.1);
       transition: transform .35s;
@@ -87,10 +122,11 @@
 
   &-skill {
     transform: translateX(calc(100% + 2.2rem));
-    @media(max-width:1024px){
+    @media(max-width: 1024px) {
       transform: translateX(0px);
       transition: transform .35s;
     }
+
     &-hover {
       transform: translateX(0px);
       transition: transform .35s;

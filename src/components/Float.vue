@@ -1,10 +1,11 @@
 <template>
     <div class="circular-menu z-10" :class="isOpen? 'active' : ''">
-        <a v-show="isOpen" v-for="item in info" class="menu-item p-3" :class="item.color"
-           :href="item.url"
+        <a v-show="isOpen" v-for="item in info" class="menu-item flex flex-col justify-center items-center p-3" :class="item.color" :href="item.url"
            target="_blank">
-            <img class="w-full" :src="`https://d2ajlnsxcxj87x.cloudfront.net/logo/${item.img}`">
+            <img class="h-6" :src="`https://d2ajlnsxcxj87x.cloudfront.net/logo/${item.img}`">
+            <span class="bubble text-white text-xs h-full">{{item.title}}</span>
         </a>
+
         <button class="floating-btn" @click="isOpen=!isOpen">
             ?
         </button>
@@ -23,9 +24,10 @@
         data() {
             return {
                 isOpen: true,
+                isHover: false,
                 info: [
                     {
-                        title: '개발 블로그',
+                        title: '블로그',
                         url: 'https://medium.com/@besoftyoon',
                         img: 'medium.svg',
                         color: 'bg-yellow-500'
