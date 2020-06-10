@@ -340,19 +340,19 @@
     },
     {
       "type": "활동",
-      "color": "#ffa7e0",
-      "thumbnail": "jcc.jpg",
-      "title": "JCC 동아리",
-      "date": "2016-03",
-      "contents": "자바 스터디 동아리로, 멘토/멘티 역할을 수행함."
-    },
-    {
-      "type": "활동",
       "color": "#b1b1b1",
       "thumbnail": "school2.jpeg",
       "title": "제27기 학생회",
       "date": "2017-08",
       "contents": "학생회 회계로 학교행사의 기획 및 운영을 진행함."
+    },
+    {
+      "type": "활동",
+      "color": "#ffa7e0",
+      "thumbnail": "jcc.jpg",
+      "title": "JCC 동아리",
+      "date": "2016-03",
+      "contents": "자바 스터디 동아리로, 멘토/멘티 역할을 수행함."
     },
     {
       "type": "공모전",

@@ -5,7 +5,7 @@
         </div>
         <div class="flex items-center justify-center sm:justify-start">
             <div class="border-r border-gray-500 pr-5 mr-5 mb-5" @click="goMirim">
-                <img class="w-20 h-20 cursor-pointer sm:h-16 sm:w-16" :src="require('../assets/images/logo/mirim1.png')"/>
+                <img class="w-20 h-20 cursor-pointer sm:h-16 sm:w-16" src="https://d2ajlnsxcxj87x.cloudfront.net/logo/mirim.png"/>
             </div>
             <div>
                 <div class="text-lg font-medium sm:text-base mb-2">미림여자정보과학고등학교</div>

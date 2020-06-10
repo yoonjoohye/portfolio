@@ -5,7 +5,7 @@
         </div>
         <div class="flex items-center justify-center sm:justify-start">
             <div class="border-r border-gray-500 pr-5 mr-5 mb-5" @click="goComento">
-                <img class="w-20 h-20 cursor-pointer sm:h-16 sm:w-16" :src="require('../assets/images/logo/comento.png')"/>
+                <img class="w-20 h-20 cursor-pointer sm:h-16 sm:w-16" src="https://d2ajlnsxcxj87x.cloudfront.net/logo/comento.png"/>
             </div>
             <div>
                 <div class="text-lg font-medium mb-2 sm:text-base">(주)코멘토</div>

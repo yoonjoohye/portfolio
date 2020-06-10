@@ -3,7 +3,7 @@
         <a v-show="isOpen" v-for="item in info" class="menu-item flex flex-col justify-center items-center p-3" :class="item.color" :href="item.url"
            target="_blank">
             <img class="h-6" :src="`https://d2ajlnsxcxj87x.cloudfront.net/logo/${item.img}`">
-            <span class="bubble text-white text-xs h-full">{{item.title}}</span>
+            <span class="text-white text-xs h-full mt-1">{{item.title}}</span>
         </a>
 
         <button class="floating-btn" @click="isOpen=!isOpen">
