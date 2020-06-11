@@ -21,6 +21,9 @@
 
     export default {
         name: 'Index',
+        beforeCreate() {
+            document.body.className='overflow-auto';
+        },
         components: {
             Greeting, Profile, Contact,Float
         },
