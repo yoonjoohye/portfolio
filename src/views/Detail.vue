@@ -41,27 +41,47 @@
             <div>
                 <div class="border-l-4 border-gray-700 pl-3 text-xl sm:text-lg font-normal mb-3">스크린샷</div>
                 <div class="masonry-detail">
-                    <div class="item" v-for="item in portfolio.img">
-                        <img class="mb-4 shadow-lg rounded-lg" :src="`https://d2ajlnsxcxj87x.cloudfront.net/portfolio/${item}`">
+                    <div class="item cursor-pointer" v-for="item in portfolio.img" @click="view(item)">
+                        <img class="mb-4 shadow-lg rounded-lg"
+                             :src="`https://d2ajlnsxcxj87x.cloudfront.net/portfolio/${item}`">
                     </div>
                 </div>
             </div>
         </div>
+
+        <Modal v-if="showModal" :imgSrc="imgSrc" @close="close"/>
     </section>
 </template>
 
 <script>
     import db from '../assets/db/db.json';
+    import Modal from '../components/Modal.vue';
 
     export default {
+        components: {
+            Modal
+        },
         data() {
             return {
                 portfolio: db.portfolio,
+                showModal: false,
+                imgSrc:''
             }
         },
         mounted() {
             this.portfolio = this.portfolio[this.$route.params.id];
         },
+        methods: {
+            view(img) {
+                document.body.className='overflow-hidden';
+                this.showModal = true;
+                this.imgSrc = img;
+            },
+            close(){
+                document.body.className='overflow-auto';
+                this.showModal = false;
+            }
+        }
     }
 </script>
 
