@@ -47,4 +47,10 @@ body {
       font-size: 0.6rem;
     }
   }
+  &-xxs{
+    font-size:0.6rem;
+    @media(max-width:480px){
+      font-size:0.5rem;
+    }
+  }
 }
