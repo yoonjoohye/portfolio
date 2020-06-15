@@ -91,18 +91,19 @@
         "@font-face를 작성하고, 이미지를 압축하는 등 성능을 개선을 하려고 노력함.",
         "기존 클래스형 컴포넌트에서 Hooks를 사용하여 함수형 컴포넌트로 리팩토링함.",
         "Hooks의 useCallback 및 useMemo를 사용하여 렌더링 최적화를 하려고 노력함.",
-        "jest를 사용하여, TDD 개발을 하려고 노력함."
+        "기존 scss로 짜여진 클래스를 여러개 불러오면서 긴 class를 작성하면서 가독성이 안 좋아졌음. styled-components을 사용하여 해결함."
       ],
       "devReview": "실제로 사용하는 유저가 있고, 글자수 제한을 풀어달라는 피드백을 받기도 했음. 또한 개선할 점들을 스스로 고민하면서, SMART 기법 기획을 계획하게 됐음.",
       "skill": [
         "React",
         "Redux",
         "Scss",
+        "Styled-components",
         "Firebase"
       ],
       "url": "https://mandal-art.yoonjoohye.xyz/",
       "team": "1",
-      "date": "2020.01 ~ 현재"
+      "date": "2020.01 ~ (진행중)"
     },
     {
       "thumbnail": "musinsa.png",
