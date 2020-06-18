@@ -21,11 +21,14 @@
 
     export default {
         name: 'Index',
+
         beforeCreate() {
-            document.body.className='overflow-auto';
+            document.body.className = 'overflow-auto';
         },
         components: {
-            Greeting, Profile, Contact,Float
+            Greeting, Profile, Contact, Float
         },
     }
 </script>
+
+
