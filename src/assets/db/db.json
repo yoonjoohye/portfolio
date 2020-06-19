@@ -327,7 +327,15 @@
       "thumbnail": "feconf.jpg",
       "title": "FEconf 2019 스태프",
       "date": "2019-10",
-      "contents": " Front-end 컨퍼런스인 FEConf 2019 스태프로 선발되어 참가자 확인 및 굿즈 배분을 담당함."
+      "contents": "Front-end 컨퍼런스인 FEConf 2019 스태프로 선발되어 참가자 확인 및 굿즈 배분을 담당함."
+    },
+    {
+      "type": "활동",
+      "color": "#07ba7f",
+      "thumbnail": "openchat.png",
+      "title": "Vue 오픈채팅방 운영",
+      "date": "2019-08",
+      "contents": "누구나 Vue에 대 질문하고, 대답할 수 있는 자리를 만들자는 취지로 운영했음."
     },
     {
       "type": "활동",
