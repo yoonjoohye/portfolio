@@ -2,17 +2,19 @@
     <section class="w-full flex flex-col justify-center items-center">
         <div class="bg-image w-full h-8 sm:h-4"></div>
         <div class="container">
-            <div class="flex flex-row-m items-center justify-between mb-5">
-                <div class="text-5xl font-medium sm:text-2xl">{{portfolio.title}}</div>
-                <div class="text-xsmall">
-                    <div v-if="portfolio.url!==''">
-                        <a class="underline text-gray-700 hover:text-gray-600" :href="portfolio.url"
-                           target="_blank">{{portfolio.url}}</a>
-                    </div>
-                    <div class="underline text-gray-700" v-if="portfolio.report">
-                        관련기사::
-                        <a v-for="report in portfolio.report" :href="report.url" target="_blank">{{report.name}}</a>
-                    </div>
+            <div class="text-5xl font-medium sm:text-2xl mb-5">{{portfolio.title}}</div>
+            <div class="mb-3 text-small">
+                <div v-if="portfolio.url!==''">
+                    <a class="underline text-gray-700 hover:text-gray-600" :href="portfolio.url"
+                       target="_blank">{{portfolio.url}}</a>
+                </div>
+                <div v-if="portfolio.github!==''">
+                    <a class="underline text-gray-700 hover:text-gray-600" :href="portfolio.github"
+                       target="_blank">{{portfolio.github}}</a>
+                </div>
+                <div class="underline text-gray-700" v-if="portfolio.report">
+                    관련기사::
+                    <a v-for="report in portfolio.report" :href="report.url" target="_blank">{{report.name}}</a>
                 </div>
             </div>
             <div class="mb-3 text-small sm:mb-2">개발 기간 - {{portfolio.date}}</div>
@@ -65,7 +67,7 @@
             return {
                 portfolio: db.portfolio,
                 showModal: false,
-                imgSrc:''
+                imgSrc: ''
             }
         },
         mounted() {
@@ -73,12 +75,12 @@
         },
         methods: {
             view(img) {
-                document.body.className='overflow-hidden';
+                document.body.className = 'overflow-hidden';
                 this.showModal = true;
                 this.imgSrc = img;
             },
-            close(){
-                document.body.className='overflow-auto';
+            close() {
+                document.body.className = 'overflow-auto';
                 this.showModal = false;
             }
         }

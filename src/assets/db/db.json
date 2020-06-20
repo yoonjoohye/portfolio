@@ -68,7 +68,8 @@
         "GraphQL",
         "Apollo-Client"
       ],
-      "url": "https://github.com/yoonjoohye/sharidea",
+      "github": "https://github.com/yoonjoohye/sharidea",
+      "url": "",
       "team": "2",
       "date": "2020.03 ~ (진행중)"
     },
@@ -99,6 +100,7 @@
         "Styled-components",
         "Firebase"
       ],
+      "github": "https://github.com/yoonjoohye/mandal-art",
       "url": "https://mandal-art.yoonjoohye.xyz/",
       "team": "2",
       "date": "2020.01 ~ (진행중)"
@@ -113,7 +115,7 @@
       ],
       "color": "#000000",
       "title": "무신사 UI/UX 리뉴얼",
-      "content": "무신사 스토어 메인화면을 새롭게 UI/UX 개선하여 만든 프로젝트",
+      "content": "무신사 스토어 메인화면을 새롭게 UI/UX 개선하여 만든 프로젝트임.",
       "devReason": "무신사라고 '무진장 신발사진 많은 곳'이라고 불리는 쇼핑몰에서 옷을 많이 샀었음. 처음 무신사 스토어를 이용할때 기능이 많아 레이아웃 적응이 쉽지 않았음. 그래서 '무신사를 한번 개선해보자!'라는 생각을 하고 개발하게 됨.",
       "devStory": [
         "햄버거 버튼을 클릭하면 전체 메뉴를 볼 수 있도록 했음.",
@@ -130,7 +132,8 @@
         "TailWindCSS",
         "lazy-loading"
       ],
-      "url": "https://github.com/yoonjoohye/musinsa_renewal",
+      "github": "https://github.com/yoonjoohye/musinsa_renewal",
+      "url": "",
       "team": "1",
       "date": "2019.11 ~ 2019.12"
     },
@@ -175,6 +178,7 @@
         "Scss",
         "TailWind CSS"
       ],
+      "github": "",
       "url": "https://jobfair.comento.kr/leading",
       "team": "2",
       "date": "2019.03 ~ 2019.08"
@@ -203,6 +207,7 @@
         "Less",
         "ApexCharts.js"
       ],
+      "github": "",
       "url": "https://comento.info/univ/dashboard",
       "team": "2",
       "date": "2019.07 ~ 2019.08"
@@ -229,6 +234,7 @@
         "Vue",
         "Less"
       ],
+      "github": "",
       "url": "https://comento.kr/analytics/report",
       "team": "2",
       "date": "2019.07 ~ 2019.07"
@@ -252,6 +258,7 @@
         "Vue",
         "Less"
       ],
+      "github": "",
       "url": "https://comento.kr/product/mentoring",
       "team": "2",
       "date": "2019.07 ~ 2019.07"
@@ -282,6 +289,7 @@
         "Vue",
         "Less"
       ],
+      "github": "",
       "url": "https://comento.kr/edu",
       "team": "2",
       "date": "2019.03 ~ 2019.06"
@@ -315,6 +323,7 @@
         "Vue",
         "Less"
       ],
+      "github": "",
       "url": "https://biz.comento.kr/",
       "team": "2",
       "date": "2019.01 ~ 2019.02"
