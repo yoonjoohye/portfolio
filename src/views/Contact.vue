@@ -1,5 +1,5 @@
 <template>
-    <section class="container bg-image w-full flex flex-col justify-center items-center">
+    <section class="h-64 sm:h-40 bg-image w-full flex flex-col justify-center fixed z-0 bottom-0">
         <div class="w-full text-center">
             <div class="inline-block text-white">
                 <!--github-->

@@ -1,9 +1,7 @@
 <template>
-    <section class="container bg-image w-full flex flex-col justify-center">
-        <div class="text-center text-white">
-            <div class="text-6xl font-normal border-b border-white mb-5 sm:mb-4 sm:text-3xl">윤주혜</div>
-            <div class="text-xl sm:text-sm">변화는 있지만, 변함없는 개발자</div>
-        </div>
+    <section class="h-64 sm:h-40 bg-image w-full flex flex-col justify-center fixed z-0">
+            <div class="text-center text-white text-6xl font-normal sm:text-3xl">윤주혜</div>
+            <div class="text-center text-white text-xl sm:text-sm">변화는 있지만, 변함없는 개발자</div>
     </section>
 </template>
 

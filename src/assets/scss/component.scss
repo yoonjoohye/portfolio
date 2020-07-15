@@ -14,13 +14,13 @@
     top: 0;
     right: 0;
     z-index: -2;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
     background: #f76666;
     border:3px solid #b7daa1;
     transition: all .3s ease;
     @media(max-width:480px){
       width:2.5em;
       height:2.5em;
+      border:2px solid #b7daa1;
     }
   }
 
