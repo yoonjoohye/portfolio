@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="mb-10 sm:mb-5">
-                <div class="border-l-4 border-gray-700 pl-3 text-xl sm:text-lg font-normal mb-3">어떻게 구현했는가?</div>
+                <div class="border-l-4 border-gray-700 pl-3 text-xl sm:text-lg font-normal mb-3">어떻게 만들었는가?</div>
                 <div class="flex flex-wrap mb-3">
                     <span class="text-sm sm:text-xs border border-gray-700 rounded font-normal px-2 py-1 mr-2 mb-1 sm:mr-1"
                           v-for="skill in portfolio.skill"># {{skill}}</span>
