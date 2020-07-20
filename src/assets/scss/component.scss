@@ -14,13 +14,14 @@
     top: 0;
     right: 0;
     z-index: -2;
-    background: #f76666;
-    border:3px solid #b7daa1;
+    background: #fa5c2a;
+    border:3px solid #fad32a;
+
     transition: all .3s ease;
     @media(max-width:480px){
       width:2.5em;
       height:2.5em;
-      border:2px solid #b7daa1;
+      border:2px solid #fad32a;
     }
   }
 
@@ -29,9 +30,9 @@
     transition-timing-function: cubic-bezier(.68, 1.55, .265, 1);
   }
   &.active .floating-btn{
-    background-color: #ffffff42;
+    background-color: #ffffff2e;
     &:hover {
-      background-color: #ffffff77;
+      background-color: rgba(255, 255, 255, 0.38);
     }
   }
 }
@@ -44,9 +45,9 @@
   transition: transform .3s ease-in-out, background .2s ease-in-out;
   transition-timing-function: ease-in-out;
 
-  background-color: #00000030;
+  background-color: #ffffff2e;
   &:hover {
-    background-color: #00000060;
+    background-color: rgba(255, 255, 255, 0.38);
   }
   @media(max-width:480px){
     width:2.5em;

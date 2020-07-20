@@ -2,10 +2,12 @@
     <section>
         <!--이력서-->
         <Float></Float>
-        <!--뒷쪽-->
+        <!--인사말-->
         <Greeting></Greeting>
         <!--프로필-->
         <Profile></Profile>
+        <!--연락처-->
+        <Contact></Contact>
     </section>
 </template>
 
@@ -13,16 +15,18 @@
     // @ is an alias to /src
     import Greeting from '@/views/Greeting.vue';
     import Profile from '@/views/Profile.vue';
+    import Contact from '@/views/Contact.vue';
     import Float from '@/components/Float.vue';
 
 
     export default {
         name: 'Index',
+
         beforeCreate() {
             document.body.className = 'overflow-auto';
         },
         components: {
-            Greeting, Profile, Float
+            Greeting, Profile, Contact, Float
         },
     }
 </script>

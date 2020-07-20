@@ -9,8 +9,8 @@
             </div>
             <div>
                 <div class="text-lg font-medium sm:text-base mb-2">미림여자정보과학고등학교</div>
-                <div class="text-gray-600 font-light sm:text-sm keep-all">인터랙티브미디어과</div>
-                <div class="text-gray-600 font-light sm:text-sm keep-all">2016.03~2019.02 (졸업)</div>
+                <div class="text-gray-700 font-normal sm:text-sm keep-all">인터랙티브미디어과</div>
+                <div class="text-gray-700 font-normal sm:text-sm keep-all">2016.03~2019.02 (졸업)</div>
             </div>
         </div>
     </section>

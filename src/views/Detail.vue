@@ -2,8 +2,8 @@
     <section class="w-full flex flex-col justify-center items-center">
         <div class="bg-image w-full h-8 sm:h-4"></div>
         <div class="container">
-            <div class="text-5xl font-medium sm:text-2xl mb-5">{{portfolio.title}}</div>
-            <div class="mb-3 text-small">
+            <div class="text-center text-5xl font-medium sm:text-2xl">{{portfolio.title}}</div>
+            <div class="mb-5 sm:mb-3 text-small text-center">
                 <div v-if="portfolio.url!==''">
                     <a class="underline text-gray-700 hover:text-gray-600" :href="portfolio.url"
                        target="_blank">{{portfolio.url}}</a>
@@ -17,26 +17,26 @@
                     <a v-for="report in portfolio.report" :href="report.url" target="_blank">{{report.name}}</a>
                 </div>
             </div>
-            <div class="mb-3 text-small sm:mb-2">개발 기간 - {{portfolio.date}}</div>
-            <div class="mb-10 text-small">개발 인원 - {{portfolio.team}}명 / Front-end 개발 기여도 100%</div>
+            <div class="text-small">개발 기간 - {{portfolio.date}}</div>
+            <div class="mb-10 sm:mb-5 text-small">개발 인원 - {{portfolio.team}}명 / Front-end 개발 기여도 100%</div>
 
 
-            <div class="mb-10">
+            <div class="mb-10 sm:mb-5">
                 <div class="border-l-4 border-gray-700 pl-3 text-xl sm:text-lg font-normal mb-3">서비스 소개</div>
                 <p class="text-small" v-html="portfolio.content"></p>
             </div>
-            <div class="mb-10">
+            <div class="mb-10 sm:mb-5">
                 <div class="border-l-4 border-gray-700 pl-3 text-xl sm:text-lg font-normal mb-3">만든 이유</div>
                 <p class="text-small" v-html="portfolio.devReason"></p>
             </div>
-            <div class="mb-10" v-if="portfolio.service">
+            <div class="mb-10 sm:mb-5" v-if="portfolio.service">
                 <div class="border-l-4 border-gray-700 pl-3 text-xl sm:text-lg font-normal mb-3">서비스 기능</div>
                 <div class="mb-2 sm:mb-1" v-for="(item,data) in portfolio.service">
                     <div class="font-medium mb-2 sm:mb-1 text-lg sm:text-base">{{item.title}}</div>
                     <li class="text-small mb-1" v-for="content in item.contents">{{content}}</li>
                 </div>
             </div>
-            <div class="mb-10">
+            <div class="mb-10 sm:mb-5">
                 <div class="border-l-4 border-gray-700 pl-3 text-xl sm:text-lg font-normal mb-3">어떻게 구현했는가?</div>
                 <div class="flex flex-wrap mb-3">
                     <span class="text-sm sm:text-xs border border-gray-700 rounded font-normal px-2 py-1 mr-2 mb-1 sm:mr-1"

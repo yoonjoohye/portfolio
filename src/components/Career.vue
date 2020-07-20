@@ -9,8 +9,8 @@
             </div>
             <div>
                 <div class="text-lg font-medium mb-2 sm:text-base">(주)코멘토</div>
-                <div class="text-gray-600 font-light sm:text-sm keep-all">Front-end 개발 (인턴)</div>
-                <div class="text-gray-600 font-light sm:text-sm keep-all">2019.01~2019.08 (8개월)</div>
+                <div class="text-gray-700 font-normal sm:text-sm keep-all">Front-end 개발 (인턴)</div>
+                <div class="text-gray-700 font-normal sm:text-sm keep-all">2019.01~2019.08 (8개월)</div>
             </div>
         </div>
 
