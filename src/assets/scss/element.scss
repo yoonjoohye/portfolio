@@ -22,4 +22,7 @@
 .blur{
   backdrop-filter:blur(2px);
 }
-
+li {
+  list-style-position: inside;
+  text-indent: 0;
+}
