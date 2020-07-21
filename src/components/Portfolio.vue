@@ -9,7 +9,7 @@
             <div class="font-normal font-white text-2xl mb-2 sm:text-lg" :class="isHover? 'border-b-2 border-white' : ''">{{title}}
             </div>
             <div class="flex flex-wrap items-center portfolio-skill" :class="isHover? 'portfolio-skill-hover' : ''">
-                <span class="font-medium text-small text-white px-2 rounded-full border-2 border-white sm:border mr-1 mb-1" v-for="item in skill"># {{item}}</span>
+                <span class="font-medium text-small text-white px-2 py-1 rounded border-2 border-white sm:border mr-1 mb-1" v-for="item in skill">{{item}}</span>
             </div>
         </figcaption>
     </div>

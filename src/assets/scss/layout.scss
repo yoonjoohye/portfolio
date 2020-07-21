@@ -61,9 +61,9 @@
 }
 
 .container {
-  padding: 5rem 8%;
+  padding: 5rem 20%;
   @media(max-width: 1024px) {
-    padding: 3rem 4%;
+    padding: 3rem 5%;
   }
   @media(max-width: 480px) {
     padding: 2rem 5%;
@@ -91,6 +91,12 @@
   right: 10%;
 }
 
+.left-10{
+  left:10%;
+}
 .ml--2{
   margin-left:-2rem;
+}
+.fit-content{
+  min-width:fit-content;
 }

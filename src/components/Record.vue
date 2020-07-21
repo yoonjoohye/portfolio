@@ -4,7 +4,7 @@
             <span class="text-3xl border-b-4 border-orange-800 sm:text-xl sm:border-b-2">Portfolio</span>
         </div>
         <!--포트폴리오-->
-        <div class="grid grid-cols-3-m gap-3 mb-8">
+        <div class="grid grid-cols-2-m gap-3 mb-8">
             <Portfolio v-for="(item,index) in portfolio" :thumbnail="item.thumbnail" :title="item.title"
                        :content="item.content"
                        :color="item.color"
@@ -14,7 +14,7 @@
             <span class="text-3xl border-b-4 border-orange-800 sm:text-xl sm:border-b-2">Activity</span>
         </div>
         <!--활동-->
-        <div class="grid grid-cols-3-m gap-3 mb-8">
+        <div class="grid grid-cols-2-m gap-3 mb-8">
             <Activity v-for="(item,index) in activity" :color="item.color" :date="item.date" :thumbnail="item.thumbnail"
                       :title="item.title"
                       :type="item.type"

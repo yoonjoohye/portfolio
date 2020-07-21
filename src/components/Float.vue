@@ -1,7 +1,7 @@
 <template>
     <div class="circular-menu z-10" :class="isOpen? 'active' : ''">
-        <a v-show="isOpen" v-for="item in info" class="menu-item flex flex-col justify-center items-center p-3" :class="item.color" :href="item.url"
-           target="_blank">
+        <a v-show="isOpen" v-for="(item,index) in info" class="menu-item flex flex-col justify-center items-center p-3" :class="item.color" :href="item.url"
+           :target="item.target">
             <img class="w-5 h-5" :src="`https://d2ajlnsxcxj87x.cloudfront.net/logo/${item.img}`">
             <span class="text-white text-xxs h-full mt-1 only-pc">{{item.title}}</span>
         </a>
@@ -17,8 +17,30 @@
     export default {
         name: "Float",
         mounted() {
-            if (screen.width <= 480) {
+            if (screen.width <= 480 || location.pathname==='/resume') {
                 this.isOpen = false;
+            }
+
+            if(location.pathname==='/resume'){
+                this.info.push(
+                    {
+                        title: '포폴',
+                        url: '/',
+                        img: 'resume.svg',
+                        target:'_self'
+
+                    }
+                );
+            }else{
+                this.info.push(
+                    {
+                        title: '이력서',
+                        url: '/resume',
+                        img: 'resume.svg',
+                        target:'_self'
+
+                    }
+                );
             }
         },
         data() {
@@ -30,19 +52,13 @@
                         title: '블로그',
                         url: 'https://medium.com/@besoftyoon',
                         img: 'medium.svg',
-                        color: 'bg-yellow-500'
+                        target:'_blank'
                     },
                     {
                         title: '깃허브',
                         url: 'https://github.com/yoonjoohye',
                         img: 'github.svg',
-                        color: 'bg-orange-500'
-                    },
-                    {
-                        title: '이력서',
-                        url: 'https://drive.google.com/drive/folders/1kGlwKXYWo4R4-TAou7fAHpNHTIX6Gy9n',
-                        img: 'resume.svg',
-                        color: 'bg-red-500'
+                        target:'_blank'
                     }
                 ]
             }

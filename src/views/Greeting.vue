@@ -1,7 +1,16 @@
 <template>
-    <section class="h-64 sm:h-40 bg-image w-full flex flex-col justify-center text-center text-white">
-            <div class="text-6xl font-normal sm:text-3xl">윤주혜</div>
-            <div class="text-xl sm:text-sm">변화는 있지만, 변함없는 개발자</div>
+    <section class="fixed z-0 bg-image w-full h-64 sm:h-40 flex flex-col justify-center items-center text-center text-white">
+
+        <img class="absolute left-10 bottom-0 w-32 h-32 sm:w-20 sm:h-20" src="../assets/images/logo/gooddoc.png"/>
+
+        <div class="text-6xl font-normal sm:text-3xl">윤주혜</div>
+
+        <div class="absolute right-10 text-left text-blue-800 only-pc">
+            <div class="text-6xl md:text-3xl font-bold italic">
+                # 변화는 있지만,<br/>
+                # 변함없는 개발자
+            </div>
+        </div>
     </section>
 </template>
 

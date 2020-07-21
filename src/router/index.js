@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Index from '../views/Index.vue'
 import Detail from '../views/Detail.vue'
+import Resume from '../views/Resume';
 
 Vue.use(VueRouter)
 
@@ -16,6 +17,12 @@ const routes = [
     name: 'detail',
     component: Detail
   },
+  {
+    path: '/resume',
+    name: 'Resume',
+    component: Resume
+
+  }
 ]
 
 const router = new VueRouter({

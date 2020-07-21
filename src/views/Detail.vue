@@ -33,7 +33,10 @@
                 <div class="border-l-4 border-gray-700 pl-3 text-xl sm:text-lg font-normal mb-3">서비스 기능</div>
                 <div class="mb-2 sm:mb-1" v-for="(item,data) in portfolio.service">
                     <div class="font-medium mb-2 sm:mb-1 text-lg sm:text-base">{{item.title}}</div>
-                    <li class="text-small mb-1" v-for="content in item.contents">{{content}}</li>
+                    <div class="flex text-small mb-1" v-for="content in item.contents">
+                        <li/>
+                        <div class="keep-all">{{content}}</div>
+                    </div>
                 </div>
             </div>
             <div class="mb-10 sm:mb-5">
@@ -42,7 +45,11 @@
                     <span class="text-sm sm:text-xs border border-gray-700 rounded font-normal px-2 py-1 mr-2 mb-1 sm:mr-1"
                           v-for="skill in portfolio.skill"># {{skill}}</span>
                 </div>
-                <li class=" text-small mb-2 sm:mb-1" v-for="(item,index) in portfolio.devStory">{{item}}</li>
+
+                <div class="flex text-small mb-2 sm:mb-1" v-for="(item,index) in portfolio.devStory">
+                    <li/>
+                    <div class="keep-all">{{item}}</div>
+                </div>
             </div>
 
             <div>
