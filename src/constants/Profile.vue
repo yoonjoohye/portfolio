@@ -1,5 +1,5 @@
 <template>
-    <section class="relative z-1 pt-64 sm:pt-40 w-full flex flex-col justify-center items-center">
+    <section class="w-full flex flex-col justify-center items-center">
         <div class="container bg-white shadow-top">
             <div class="flex flex-row-m">
                 <!--경력-->
@@ -21,12 +21,11 @@
     import Skill from '../components/Skill.vue';
     import Record from '../components/Record.vue';
 
-
     export default {
         name: "Profile",
         components: {
             Career, Edu, Skill, Record
-        },
+        }
     }
 </script>
 

@@ -1,6 +1,5 @@
 <template>
     <section class="w-full flex flex-col justify-center items-center">
-        <div class="bg-image w-full h-8 sm:h-4"></div>
         <div class="container">
             <div class="text-center text-5xl font-medium sm:text-2xl">{{portfolio.title}}</div>
             <div class="mb-5 sm:mb-3 text-small text-center">
@@ -42,7 +41,7 @@
             <div class="mb-10 sm:mb-5">
                 <div class="border-l-4 border-gray-700 pl-3 text-xl sm:text-lg font-normal mb-3">어떻게 만들었는가?</div>
                 <div class="flex flex-wrap mb-3">
-                    <span class="text-sm sm:text-xs border border-gray-700 rounded font-normal px-2 py-1 mr-2 mb-1 sm:mr-1"
+                    <span class="text-sm sm:text-xs border border-gray-700 rounded-full font-light px-4 py-1 mr-2 mb-1 sm:mr-1"
                           v-for="skill in portfolio.skill"># {{skill}}</span>
                 </div>
 

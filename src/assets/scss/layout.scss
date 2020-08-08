@@ -61,12 +61,24 @@
 }
 
 .container {
-  padding: 5rem 20%;
+  padding: 20rem 20% 5rem 20%;
   @media(max-width: 1024px) {
-    padding: 3rem 5%;
+    padding: 20rem 5% 5rem 5%;
   }
   @media(max-width: 480px) {
-    padding: 2rem 5%;
+    padding: 15rem 5% 2rem 5%;
+  }
+  &-header{
+    padding-right: 20%;
+    padding-left: 20%;
+    @media(max-width: 1024px) {
+      padding-right: 5%;
+      padding-left: 5%;
+    }
+    @media(max-width: 480px) {
+      padding-right:5%;
+      padding-left: 5%;
+    }
   }
 }
 

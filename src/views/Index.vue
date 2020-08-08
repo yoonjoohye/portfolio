@@ -1,16 +1,11 @@
 <template>
-    <section>
-        <!--인사말-->
-        <Greeting></Greeting>
-        <!--프로필-->
-        <Profile></Profile>
-    </section>
+    <!--프로필-->
+    <Profile></Profile>
 </template>
 
 <script>
     // @ is an alias to /src
-    import Greeting from '@/views/Greeting.vue';
-    import Profile from '@/views/Profile.vue';
+    import Profile from '@/constants/Profile.vue';
 
     export default {
         name: 'Index',
@@ -19,7 +14,7 @@
             document.body.className = 'overflow-auto';
         },
         components: {
-            Greeting, Profile
+             Profile
         },
     }
 </script>

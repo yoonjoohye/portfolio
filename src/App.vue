@@ -1,13 +1,15 @@
 <template>
   <div id="app">
-    <Float/>
-    <router-view/>
+    <Header/>
+<!--    <Float/>-->
+    <router-view />
   </div>
 </template>
 <script>
   import Float from '@/components/Float.vue';
+  import Header from "./constants/Header";
   export default {
-    components:{Float}
+    components:{Header, Float}
   }
 
 </script>

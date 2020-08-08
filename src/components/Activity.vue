@@ -10,7 +10,7 @@
                 {{title}}
             </div>
             <div class="flex flex-wrap items-center portfolio-skill" :class="isHover? 'portfolio-skill-hover':''">
-                <div class="text-small keep-all">{{contents}}</div>
+                <div class="font-light text-small keep-all">{{contents}}</div>
             </div>
         </figcaption>
     </div>

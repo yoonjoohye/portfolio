@@ -1,7 +1,7 @@
 <template>
     <section class="mb-10 sm:mb-8">
         <div class="mb-8">
-            <span class="text-3xl border-b-4 border-orange-800 sm:text-xl sm:border-b-2">Portfolio</span>
+            <span class="text-3xl border-l-4 pl-3 border-orange-800 sm:text-xl ">Portfolio</span>
         </div>
         <!--포트폴리오-->
         <div class="grid grid-cols-2-m gap-3 mb-8">
@@ -11,7 +11,7 @@
                        :skill="item.skill" :index="index"></Portfolio>
         </div>
         <div class="mb-8">
-            <span class="text-3xl border-b-4 border-orange-800 sm:text-xl sm:border-b-2">Activity</span>
+            <span class="text-3xl border-l-4 pl-3 border-orange-800 sm:text-xl">Activity</span>
         </div>
         <!--활동-->
         <div class="grid grid-cols-2-m gap-3 mb-8">

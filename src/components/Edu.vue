@@ -1,7 +1,7 @@
 <template>
     <section class="mb-10 w-full sm:mb-8">
         <div class="mb-8">
-            <span class="text-3xl border-b-4 border-orange-800 sm:text-xl sm:border-b-2">Edu</span>
+            <span class="text-3xl border-l-4 pl-3 border-orange-800 sm:text-xl ">Edu</span>
         </div>
         <div class="flex items-center justify-center sm:justify-start">
             <div class="border-r border-gray-500 pr-5 mr-5 mb-5" @click="goMirim">

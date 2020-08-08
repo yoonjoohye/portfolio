@@ -1,9 +1,7 @@
 <template>
     <section>
-        <Greeting/>
-        <div class="relative z-1 pt-64 sm:pt-40 w-full">
+        <div class="w-full">
             <div class="container bg-white">
-
                 <article class="mb-8 sm:mb-5">
                     <div class="flex justify-between items-center mb-5 sm:mb-1">
                         <div class="text-4xl sm:text-2xl font-semibold">윤주혜 (JUICE)</div>
@@ -40,7 +38,7 @@
                     <!--경력사항--->
                     <article class="mb-8 sm:mb-5">
                         <div class="mb-8 sm:mb-5">
-                            <span class="text-3xl border-b-4 border-orange-800 sm:text-xl sm:border-b-2">경력사항</span>
+                            <span class="text-3xl border-l-4 pl-3 border-orange-800 sm:text-xl">경력사항</span>
                         </div>
                         <div class="flex flex-row-m" v-for="(item,index) in resm.career">
                             <div class="w-1/4 sm:w-full  fit-content font-light text-small mr-5 sm:mb-1">{{item.date}}
@@ -62,7 +60,7 @@
                     <!--교과 외 활동--->
                     <article class="mb-8 sm:mb-5">
                         <div class="mb-8 sm:mb-5">
-                            <span class="text-3xl border-b-4 border-orange-800 sm:text-xl sm:border-b-2">교과 외 활동</span>
+                            <span class="text-3xl border-l-4 pl-3 border-orange-800 sm:text-xl">교과 외 활동</span>
                         </div>
                         <div class="flex flex-row-m" v-for="(item,index) in resm.activity">
                             <div class="w-1/4 sm:w-full fit-content font-light text-small mr-5 sm:mb-1">{{item.date}}
@@ -81,7 +79,7 @@
                     <!--수상내역--->
                     <article class="mb-8 sm:mb-5">
                         <div class="mb-8 sm:mb-5">
-                            <span class="text-3xl border-b-4 border-orange-800 sm:text-xl sm:border-b-2">수상내역</span>
+                            <span class="text-3xl border-l-4 pl-3 border-orange-800 sm:text-xl">수상내역</span>
                         </div>
                         <div class="flex flex-row-m" v-for="(item,index) in resm.awards">
                             <div class="w-1/4 sm:w-full fit-content font-light text-small mr-5 sm:mb-1">{{item.date}}
@@ -99,7 +97,7 @@
                     <!--학력-->
                     <article class="mb-8 sm:mb-5">
                         <div class="mb-8 sm:mb-5">
-                            <span class="text-3xl border-b-4 border-orange-800 sm:text-xl sm:border-b-2">학력사항</span>
+                            <span class="text-3xl border-l-4 pl-3 border-orange-800 sm:text-xl">학력사항</span>
                         </div>
                         <div class="flex flex-row-m" v-for="(item,index) in resm.school">
                             <div class="w-1/4 sm:w-full fit-content font-light text-small mr-5 sm:mb-1">{{item.date}}
@@ -115,7 +113,7 @@
 
                     <!--기타-->
                     <div class="mb-8 sm:mb-5">
-                        <span class="text-3xl border-b-4 border-orange-800 sm:text-xl sm:border-b-2">기타</span>
+                        <span class="text-3xl border-l-4 pl-3 border-orange-800 sm:text-xl sm:border-l-2">기타</span>
                     </div>
                     <div class="flex flex-row-m" v-for="(item,index) in resm.certificate">
                         <div class="w-1/4 sm:w-full fit-content font-light text-small mr-5 sm:mb-1">{{item.date}}</div>
@@ -133,7 +131,7 @@
 </template>
 
 <script>
-    import Greeting from './Greeting';
+    import Greeting from '../constants/Greeting';
     import db from '../assets/db/db.json';
 
     export default {
