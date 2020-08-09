@@ -9,13 +9,13 @@
         </div>
         <div class="w-full py-3 flex justify-around text-3xl font-semibold sm:text-lg">
             <router-link to="/">
-                <span class="cursor-pointer" :class="path!=='/' && 'text-gray-500'">Portfolio</span>
+                <span class="cursor-pointer" :class="!(currentPage==='/' || currentPage.includes('/detail')) && 'text-gray-500'">Portfolio</span>
             </router-link>
-            <router-link to="/resume">
-                <span class="cursor-pointer" :class="path!=='/resume' && 'text-gray-500'">Resume</span>
+            <router-link to="/resume" >
+                <span class="cursor-pointer" :class="!currentPage.includes('/resume') && 'text-gray-500'">Resume</span>
             </router-link>
             <router-link to="/contact">
-                <span class="cursor-pointer" :class="path!=='/contact' && 'text-gray-500'">Contact</span>
+                <span class="cursor-pointer" :class="!currentPage.includes('/contact') && 'text-gray-500'">Contact</span>
             </router-link>
         </div>
     </section>
@@ -27,8 +27,7 @@
         data() {
             return {
                 scrolled: 0,
-                show: true,
-                path: location.pathname
+                show: true
             }
         },
         created() {
@@ -36,6 +35,11 @@
         },
         destroyed() {
             window.removeEventListener('scroll', this.onScroll);
+        },
+        computed:{
+            currentPage(){
+                return this.$route.path;
+            }
         },
         methods: {
             onScroll() {
