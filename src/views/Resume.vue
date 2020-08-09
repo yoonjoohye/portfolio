@@ -1,8 +1,7 @@
 <template>
-    <section>
-        <div class="w-full">
+    <section class="w-full">
             <div class="container bg-white">
-                <article class="mb-8 sm:mb-5">
+                <article class="mb-12 sm:mb-10">
                     <div class="flex justify-between items-center mb-5 sm:mb-1">
                         <div class="text-4xl sm:text-2xl font-semibold">윤주혜 (JUICE)</div>
                         <div>
@@ -126,12 +125,10 @@
                 </div>
 
             </div>
-        </div>
     </section>
 </template>
 
 <script>
-    import Greeting from '../constants/Greeting';
     import db from '../assets/db/db.json';
 
     export default {
@@ -140,8 +137,7 @@
             return {
                 resume: db.resume
             }
-        },
-        components: {Greeting}
+        }
     }
 </script>
 

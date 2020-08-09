@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Index from '../views/Index.vue'
 import Detail from '../views/Detail.vue'
 import Resume from '../views/Resume';
+import Contact from "../views/Contact";
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,12 @@ const routes = [
     path: '/resume',
     name: 'Resume',
     component: Resume
+
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: Contact
 
   }
 ]
