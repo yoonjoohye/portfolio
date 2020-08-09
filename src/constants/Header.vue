@@ -8,17 +8,15 @@
             <div class="text-xsmall rounded px-3 py-1 bg-image text-white">Front-end Developer</div>
         </div>
         <div class="w-full py-3 flex justify-around text-3xl font-semibold sm:text-lg">
-            <div>
-                <span class="cursor-pointer" :class="path!=='/' && 'text-gray-500'" onClick="location.href='/'">Portfolio</span>
-            </div>
-            <div>
-                <span class="cursor-pointer" :class="path!=='/resume' && 'text-gray-500'"
-                      onClick="location.href='/resume'">Resume</span>
-            </div>
-            <div>
-                <span class="cursor-pointer" :class="path!=='/contact' && 'text-gray-500'"
-                      onClick="location.href='/contact'">Contact</span>
-            </div>
+            <router-link to="/">
+                <span class="cursor-pointer" :class="path!=='/' && 'text-gray-500'">Portfolio</span>
+            </router-link>
+            <router-link to="/resume">
+                <span class="cursor-pointer" :class="path!=='/resume' && 'text-gray-500'">Resume</span>
+            </router-link>
+            <router-link to="/contact">
+                <span class="cursor-pointer" :class="path!=='/contact' && 'text-gray-500'">Contact</span>
+            </router-link>
         </div>
     </section>
 </template>
