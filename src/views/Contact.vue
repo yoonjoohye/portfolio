@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="container flex flex-col justify-center h-screen">
+        <div class="container sm:pt-10 sm:pb-0 flex flex-col justify-center h-screen">
             <div class="mb-10">
                 <p class="text-2xl sm:text-lg keep-all">
                     안녕하세요! <span class="font-semibold">프론트엔드 개발자 윤주혜</span>입니다.<br/>
