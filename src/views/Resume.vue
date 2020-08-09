@@ -37,7 +37,7 @@
                     <!--경력사항--->
                     <article class="mb-8 sm:mb-5">
                         <div class="mb-8 sm:mb-5">
-                            <span class="text-3xl border-l-4 pl-3 border-orange-800 sm:text-xl">경력사항</span>
+                            <span class="text-3xl font-semibold border-l-6  pl-3 border-orange-800 sm:text-xl sm:border-l-4">경력사항</span>
                         </div>
                         <div class="flex flex-row-m" v-for="(item,index) in resm.career">
                             <div class="w-1/4 sm:w-full  fit-content font-light text-small mr-5 sm:mb-1">{{item.date}}
@@ -59,7 +59,7 @@
                     <!--교과 외 활동--->
                     <article class="mb-8 sm:mb-5">
                         <div class="mb-8 sm:mb-5">
-                            <span class="text-3xl border-l-4 pl-3 border-orange-800 sm:text-xl">교과 외 활동</span>
+                            <span class="text-3xl font-semibold border-l-6 pl-3 border-orange-800 sm:text-xl sm:border-l-4">교과 외 활동</span>
                         </div>
                         <div class="flex flex-row-m" v-for="(item,index) in resm.activity">
                             <div class="w-1/4 sm:w-full fit-content font-light text-small mr-5 sm:mb-1">{{item.date}}
@@ -78,7 +78,7 @@
                     <!--수상내역--->
                     <article class="mb-8 sm:mb-5">
                         <div class="mb-8 sm:mb-5">
-                            <span class="text-3xl border-l-4 pl-3 border-orange-800 sm:text-xl">수상내역</span>
+                            <span class="text-3xl font-semibold border-l-6  pl-3 border-orange-800 sm:text-xl sm:border-l-4">수상내역</span>
                         </div>
                         <div class="flex flex-row-m" v-for="(item,index) in resm.awards">
                             <div class="w-1/4 sm:w-full fit-content font-light text-small mr-5 sm:mb-1">{{item.date}}
@@ -96,7 +96,7 @@
                     <!--학력-->
                     <article class="mb-8 sm:mb-5">
                         <div class="mb-8 sm:mb-5">
-                            <span class="text-3xl border-l-4 pl-3 border-orange-800 sm:text-xl">학력사항</span>
+                            <span class="text-3xl font-semibold border-l-6 pl-3 border-orange-800 sm:text-xl sm:border-l-4">학력사항</span>
                         </div>
                         <div class="flex flex-row-m" v-for="(item,index) in resm.school">
                             <div class="w-1/4 sm:w-full fit-content font-light text-small mr-5 sm:mb-1">{{item.date}}
@@ -112,7 +112,7 @@
 
                     <!--기타-->
                     <div class="mb-8 sm:mb-5">
-                        <span class="text-3xl border-l-4 pl-3 border-orange-800 sm:text-xl sm:border-l-2">기타</span>
+                        <span class="text-3xl font-semibold border-l-6 pl-3 border-orange-800 sm:text-xl sm:border-l-4">기타</span>
                     </div>
                     <div class="flex flex-row-m" v-for="(item,index) in resm.certificate">
                         <div class="w-1/4 sm:w-full fit-content font-light text-small mr-5 sm:mb-1">{{item.date}}</div>

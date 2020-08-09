@@ -1,10 +1,10 @@
 <template>
     <section class="mb-10 sm:mb-8">
         <div class="mb-8">
-            <span class="text-3xl border-l-4 pl-3 border-orange-800 sm:text-xl">Skill</span>
+            <span class="text-3xl font-semibold border-l-6 pl-3 border-orange-800 sm:text-xl sm:border-l-4">Skill</span>
         </div>
         <div class="flex flex-row-m justify-center mb-5 sm:mb-0" v-for="list in skill">
-            <div class="font-medium text-lg w-1/3 text-right mr-10 sm:mr-0 sm:mb-2 sm:text-center sm:text-base sm:w-full only-pc">
+            <div class="font-semibold text-lg w-1/3 text-right mr-10 sm:mr-0 sm:mb-2 sm:text-center sm:text-base sm:w-full only-pc">
                 {{list.type}}
             </div>
             <div class="w-2/3 sm:w-full">

@@ -11,7 +11,7 @@
             <figcaption
                     class="z-2 w-full h-full rounded-lg top-0 bottom-0 absolute text-white p-8 bg-black-opacity overflow-hidden sm:p-6"
                     :class="isHover? 'bg-black-opacity-dark blur' : ''">
-                <div class="font-normal font-white text-2xl sm:text-lg sm:mb-2">{{title}}</div>
+                <div class="font-medium font-white text-2xl sm:text-lg sm:mb-2">{{title}}</div>
                 <div class="portfolio-border mb-2" :class="isHover ?'portfolio-border-hover':''"/>
                 <div class="flex flex-wrap items-center portfolio-skill" :class="isHover? 'portfolio-skill-hover' : ''">
                     <span class="font-light text-small text-white px-4 py-1 rounded-full border border-white sm:border mr-1 mb-2"

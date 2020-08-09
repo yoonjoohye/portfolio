@@ -12,6 +12,9 @@ module.exports = {
                 '1': '1',
                 '2': '2'
             },
+            borderWidth:{
+                '6':'6px'
+            },
             boxShadow: {
                 'top': '0 0px 20px rgba(0, 0, 0, 0.18)',
                 'right':'10px 5px 10px rgba(0,0,0,0.18)',
