@@ -1,4 +1,6 @@
-# Resume and Portfolio
+# 주스의 포트폴리오
+<img src="https://img.shields.io/badge/likes-100%2B-%23ff69b4"/>
+
 웹 프론트엔드 개발자 포트폴리오
 
 ## URL
