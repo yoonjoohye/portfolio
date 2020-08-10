@@ -1,6 +1,7 @@
 # yoonjoohye
 포트폴리오 사이트 yoonjoohye.xyz
 
-### ScreenShot
+### Demo
 
-[img](http://i.imgur.com/pditetxh.gif)
+[![Demo](https://i.imgur.com/pditetxh.jpg)](https://i.imgur.com/pditetx.mp4)
+
