@@ -3,4 +3,4 @@
 
 ### ScreenShot
 
-[img]http://i.imgur.com/pditetxh.gif[/img]
+[img](http://i.imgur.com/pditetxh.gif)
