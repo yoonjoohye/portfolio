@@ -1,5 +1,10 @@
-# yoonjoohye
-웹 포트폴리오
+# Resume and Portfolio
+웹 프론트엔드 개발자 포트폴리오
+
+## Story
+포트폴리오와 이력서를 겸한 사이트입니다.
+
+여러 사람들의 포트폴리오 및 이력서를 참조했습니다.
 
 ## Skill
 vue + tailwindCSS
