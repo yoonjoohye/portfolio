@@ -107,6 +107,8 @@
     height: 0.5px;
     background-color: white;
     transform: translateX(calc(-100% - 3rem));
+    transition: transform .3s;
+
     &-hover {
       transform: translateX(0px);
       transition: transform .3s;
@@ -127,6 +129,8 @@
 
   &-skill {
     transform: translateX(calc(100% + 3rem));
+    transition: transform .3s;
+
     &-hover {
       transform: translateX(0px);
       transition: transform .3s;
