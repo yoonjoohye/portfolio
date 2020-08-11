@@ -121,7 +121,7 @@
                     <div class="flex flex-row-m" v-for="(item,index) in resm.certificate">
                         <div class="w-1/4 sm:w-full fit-content font-light text-small mr-5 sm:mb-1">{{item.date}}</div>
                         <div class="w-3/4 sm:w-full flex flex-row mb-5">
-                            <div class=" font-medium text-small border-r pr-5 mr-5 sm:mr-1 sm:pr-1">{{item.title}}</div>
+                            <div class="keep-all font-medium text-small border-r pr-5 mr-5 sm:mr-1 sm:pr-1">{{item.title}}</div>
                             <div class="keep-all text-small">{{item.contents}}</div>
                         </div>
                     </div>
