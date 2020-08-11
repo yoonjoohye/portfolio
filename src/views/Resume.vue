@@ -104,7 +104,11 @@
                             <div class="w-3/4 sm:w-full mb-5">
                                 <div class="text-2xl sm:text-lg font-semibold mb-3 sm:mb-1">{{item.school}}</div>
                                 <div class="text-lg sm:text-base mb-3">{{item.major}}</div>
-                                <div class="keep-all mb-2 text-small" v-for="(subject,index) in item.edu">{{subject}}
+                                <div class="flex flex-row md:flex-col flex-wrap items-center md:items-start mb-3 text-small" v-for="(subject,index) in item.edu">
+                                    <span class="mr-2 sm:mb-1">{{index+1}}학년</span>
+                                    <div>
+                                        <div class="inline-block break-all text-sm sm:text-xs px-3 py-1 border border-gray-700 rounded-full mr-1 mb-1" v-for="(item) in subject">{{item}}</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

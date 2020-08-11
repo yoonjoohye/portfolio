@@ -45,6 +45,23 @@
           "img": "emotion.png"
         }
       ]
+    },
+    {
+      "type": "Design",
+      "data": [
+        {
+          "name": "Zeplin",
+          "img": "zeplin.png"
+        },
+        {
+          "name": "Adobe Illustrator",
+          "img": "illustrator.svg"
+        },
+        {
+          "name": "Adobe Photoshop",
+          "img": "photoshop.svg"
+        }
+      ]
     }
   ],
   "portfolio": [
@@ -557,9 +574,7 @@
           "major": "인터랙티브미디어과",
           "date": "2016.03 ~ 2019.02",
           "edu": [
-            "1학년 C, Java, HTML, CSS, Javascript",
-            "2학년 C++, JQuery, PHP, MySQL, 운영체제, 자료구조",
-            "3학년 C#, JSP, Spring, ASP.NET, MS-SQL, Oracle, 정보보호"
+            ["C", "Java", "HTML", "CSS", "Javascript"],["C++", "JQuery", "PHP", "MySQL", "운영체제", "자료구조"],["C#", "JSP", "Spring", "ASP.NET", "MS-SQL", "Oracle", "정보보호"]
           ]
         }
       ],
