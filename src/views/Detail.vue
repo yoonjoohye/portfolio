@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="text-small">개발 기간 - {{portfolio.date}}</div>
-            <div class="mb-10 sm:mb-5 text-small">개발 인원 - {{portfolio.team}}명 / Front-end 개발 기여도 100%</div>
+            <div class="mb-10 sm:mb-5 text-small">인원 - {{portfolio.team}}명 / Front-end 개발 기여도 100%</div>
 
 
             <div class="mb-10 sm:mb-5">

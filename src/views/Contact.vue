@@ -3,8 +3,8 @@
         <div class="container sm:pb-0 flex flex-col justify-center">
             <div class="mb-10">
                 <p class="text-2xl sm:text-lg keep-all">
-                    안녕하세요! <span class="font-semibold">프론트엔드 개발자 윤주혜</span>입니다.<br/>
-                    변화는 있지만, 변함없는 개발자가 되기 위해 노력하고 있습니다.<br/>
+                    안녕하세요! 예쁘게 만드는 것을 좋아하는 <span class="font-semibold">FE 개발자 윤주혜</span>입니다.<br/>
+                    서비스를 유저 중심적으로 예쁘게 만들고 싶어하는 욕심쟁이입니다.<br/>
                 </p>
             </div>
             <div class="text-lg sm:text-sm font-medium">

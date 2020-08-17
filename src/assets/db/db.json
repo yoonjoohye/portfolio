@@ -66,6 +66,82 @@
   ],
   "portfolio": [
     {
+      "thumbnail": "schoolvillain.png",
+      "img": [
+        "schoolvillain1.png",
+        "schoolvillain2.png",
+        "schoolvillain3.png",
+        "schoolvillain4.png",
+        "schoolvillain5.png",
+        "schoolvillain6.png",
+        "schoolvillain7.png",
+        "schoolvillain9.png",
+        "schoolvillain10.png"
+      ],
+      "color": "#bd67ff",
+      "title": "스쿨빌런",
+      "content": "중고등학생들의 커뮤니티로서, 전국에 있는 중고등학생들끼리 익명으로 정보를 주고받는 서비스 ",
+      "devReason": "지역마다 학교에서 얻는 기회, 정보 등이 달랐던 나의 경험에 의해 지역마다 다른 정보의 평균화를 만들고자 만들게 됨.",
+      "service": [
+        {
+          "title": "회원 기능",
+          "contents": [
+            "회원가입과 로그인 기능이 존재함.",
+            "회원탈퇴 기능이 있음.",
+            "비밀번호 찾기 기능이 있음."
+          ]
+        },
+        {
+          "title": "게시판 기능",
+          "contents": [
+            "게시판을 작성, 수정, 삭제가 가능함.",
+            "수정시 이미지 프리뷰를 띄움.",
+            "좋아요 기능이 있음.",
+            "댓글과 대댓글 기능이 있음."
+          ]
+        },
+        {
+          "title": "마이페이지 기능",
+          "contents": [
+            "좋아요한 글을 볼 수 있음.",
+            "내가 쓴 글을 볼 수 있음.",
+            "내가 쓴 댓글을 볼 수 있음.",
+            "닉네임과 패스워드를 변경할 수 있음."
+          ]
+        },
+        {
+          "title": "배너 기능",
+          "contents": [
+            "배너 신청 기능이 있음."
+          ]
+        }
+      ],
+      "devStory": [
+        "'10대들이 쓰는 커뮤니티'라는 메리트가 필요하기 때문에 가입할때 학교와 학년의 입력을 받아 학생인지 아닌지 거름.",
+        "사용자의 자유도를 해치지 않는 선에서, 누구나 부담없이 이용했으면 좋겠어서, 익명 서비스이지만 닉네임을 설정하고 싶은 유저는 설정할 수 있도록 함.",
+        "회원가입할 때, 유저의 가입 진행상태를 확인하기 위해 프로그레스바를 구현함.",
+        "작성한 글을 보여줄 때 띄어쓰기와 링크 태그를 삽입하는 함수를 구현함.",
+        "인피니티 로딩을 추가하여, 스크롤하면서 컨텐츠를 불러오게 함.",
+        "Textarea 태그에서 scrollHeight를 검사하여 알맞는 높이를 제공함.",
+        "사용자들이 글을 많이 쓸 수 있도록, 타이핑하는 애니메이션을 추가함.",
+        "마케팅을 위한 GTM 태그를 달았음.",
+        "지하철 광고처럼, 서비스에서 광고를 하는 건 어떨까? 생각해서, 유저에게 이미지를 받고 한시간동안 서비스에 올려주는 배너 기능을 만듦.",
+        "구글과 네이버와 다음의 웹마스터를 등록함. 검색에 잘 걸리기 위해 React-Helmet을 사용하여 메타태그를 작성함.",
+        "버전 2 : 한 학교에 50명의 학생들이 모이면 학교생활 탭을 만들고, 포인트 제도를 도입하여, 배너를 무료로 신청할 수 있게 할 것임."
+      ],
+      "devReview": "",
+      "skill": [
+        "React",
+        "Typescript",
+        "Webpack",
+        "Emotion"
+      ],
+      "github": "https://github.com/yoonjoohye/SchoolVillain",
+      "url": "https://villain.school",
+      "team": "4",
+      "date": "2020.07 ~ "
+    },
+    {
       "thumbnail": "mandal.png",
       "img": [
         "mandal1.png",
@@ -228,7 +304,7 @@
       ],
       "github": "",
       "url": "https://jobfair.comento.kr/leading",
-      "team": "2",
+      "team": "6",
       "date": "2019.03 ~ 2019.08"
     },
     {
@@ -280,7 +356,7 @@
       ],
       "github": "",
       "url": "https://comento.info/univ/dashboard",
-      "team": "2",
+      "team": "6",
       "date": "2019.07 ~ 2019.08"
     },
     {
@@ -350,7 +426,7 @@
       ],
       "github": "",
       "url": "https://comento.kr/analytics/report",
-      "team": "2",
+      "team": "6",
       "date": "2019.07 ~ 2019.07"
     },
     {
@@ -374,7 +450,7 @@
       ],
       "github": "https://comento.kr/product/analytics",
       "url": "https://comento.kr/product/mentoring",
-      "team": "2",
+      "team": "6",
       "date": "2019.07 ~ 2019.07"
     },
     {
@@ -438,7 +514,7 @@
       ],
       "github": "",
       "url": "https://comento.kr/edu",
-      "team": "2",
+      "team": "8",
       "date": "2019.03 ~ 2019.06"
     },
     {
@@ -512,11 +588,19 @@
       ],
       "github": "",
       "url": "https://biz.comento.kr/",
-      "team": "2",
+      "team": "3",
       "date": "2019.01 ~ 2019.02"
     }
   ],
   "activity": [
+    {
+      "type": "활동",
+      "color": "#d9caad",
+      "thumbnail": "podongpodong.jpg",
+      "title": "포동포동 동아리",
+      "date": "2020-10",
+      "contents": "프론트엔드 개발자, 백엔드 개발자, 디자이너, 마케터와 함께 매주 금요일마다 모여 스쿨빌런 서비스를 진행함."
+    },
     {
       "type": "활동",
       "color": "#2e3661",
