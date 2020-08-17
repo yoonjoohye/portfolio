@@ -4,7 +4,7 @@
             <div class="mb-10">
                 <p class="text-2xl sm:text-lg keep-all">
                     안녕하세요! 예쁘게 만드는 것을 좋아하는 <span class="font-semibold">FE 개발자 윤주혜</span>입니다.<br/>
-                    서비스를 유저 중심적으로 예쁘게 만들고 싶어하는 욕심쟁이입니다.<br/>
+                    유저지향적 서비스와 예쁜 서비스 두마리의 토끼를 잡고 싶어하는 개발자입니다.<br/>
                 </p>
             </div>
             <div class="text-lg sm:text-sm font-medium">
