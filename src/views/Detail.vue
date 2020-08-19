@@ -12,8 +12,7 @@
                        target="_blank">{{portfolio.github}}</a>
                 </div>
                 <div class="underline text-gray-700 hover:text-gray-600" v-if="portfolio.report">
-                    관련기사::
-                    <a v-for="report in portfolio.report" :href="report.url" target="_blank">{{report.name}}</a>
+                    <a v-for="report in portfolio.report" :href="report.url" target="_blank">{{report.name}} | {{report.url}}</a>
                 </div>
             </div>
             <div class="text-small">개발 기간 - {{portfolio.date}}</div>
