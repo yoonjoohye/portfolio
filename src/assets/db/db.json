@@ -535,7 +535,7 @@
         "biz9.png"
       ],
       "color": "#5f4f49",
-      "title": "BIZ 채용 서비스",
+      "title": "BIZ 채용",
       "content": "인공지능(AI)가 적합한 인재를 찾아 추천해주는 서비스",
       "devReason": "PHP와 JQuery가 합쳐진 레거시 파일에서 라라벨과 Vue로 리팩토링하기 위해 개발하게 됨.",
       "service": [
@@ -830,7 +830,7 @@
           ]
         },
         {
-          "title": "BIZ 리팩토링",
+          "title": "BIZ 채용",
           "date": "2019.01 ~ 2019.02",
           "url": "https://biz.comento.kr",
           "contents": [
