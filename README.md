@@ -1,4 +1,4 @@
-# 프론트엔드 웹 포트폴리오
+# 윤주혜의 프론트엔드 포트폴리오와 이력서
 <img src="https://img.shields.io/badge/likes-100%2B-%23ff69b4"/>
 
 프론트엔드 개발자 웹 포트폴리오입니다.
@@ -6,9 +6,9 @@
 ## URL
 [포트폴리오] https://yoonjoohye.xyz
 
-## install
+## Install
 
-##### 1. 실행
+##### 실행
 ```
   yarn run serve
 ```
