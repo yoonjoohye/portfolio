@@ -16,10 +16,10 @@
 </template>
 
 <script>
-    import Career from '../components/Career.vue';
-    import Edu from '../components/Edu.vue';
-    import Skill from '../components/Skill.vue';
-    import Record from '../components/Record.vue';
+    import Career from '@/components/Career.vue';
+    import Edu from '@/components/Edu.vue';
+    import Skill from '@/components/Skill.vue';
+    import Record from '@/components/Record.vue';
 
     export default {
         name: "Profile",

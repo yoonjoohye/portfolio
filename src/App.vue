@@ -6,7 +6,7 @@
 </template>
 <script>
   import Float from '@/components/Float.vue';
-  import Header from "./constants/Header";
+  import Header from "@/templates/Header";
   export default {
     components:{Header, Float}
   }

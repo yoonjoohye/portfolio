@@ -5,7 +5,7 @@
 
 <script>
     // @ is an alias to /src
-    import Profile from '@/constants/Profile.vue';
+    import Profile from '@/views/Profile.vue';
 
     export default {
         name: 'Index',
